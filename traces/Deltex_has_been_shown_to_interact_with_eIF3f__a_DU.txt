@@ -1,0 +1,24 @@
+Claim: Deltex has been shown to interact with eIF3f, a DUB required for Notch activation process.
+True Label: NEI
+Hops used: 2/3
+Evidence collected: 3
+======================================================================
+
+Thought: We currently have no information on this claim, so we should start by searching PubMed to find any relevant research or clinical evidence.
+Action: search_pubmed("Deltex eIF3f Notch activation")
+
+Observation: Result 1 [scifact] (ID: scifact_17055665): Genome-wide dFOXO targets and topology of the transcriptomic response to stress and insulin signalling
+  Genome-wide dFOXO targets and topology of the transcriptomic response to stress and insulin signalling FoxO transcription factors, inhibited by insulin/insulin-like growth factor signalling (IIS), are crucial players in numerous organismal processes including lifespan. Using genomic tools, we uncove...
+Result 2 [scifact] (ID: scifact_22405338): Cnn1 inhibits the interactions between the KMN complexes of the yeast kinetochore
+  Cnn1 inhibits the interactions between the KMN complexes of the yeast kinetochore Kinetochores attach the replicated chromosomes to the mitotic spindle and orchestrate their transmission to the daughter cells. Kinetochore–spindle binding and chromosome segregation are mediated by the multi-copy KNL1...
+Result 3 [scifact] (ID: scifact_15635366): The polycomb group protein L3mbtl2 assembles an atypical PRC1-family complex that is essential in pluripotent stem cells and early development.
+  The polycomb group protein L3mbtl2 assembles an atypical PRC1-family complex that is essential in pluripotent stem cells and early development. L3mbtl2 has been implicated in transcriptional repression and chromatin compaction but its biological function has not been defined. Here we show that disru...
+
+Thought: The PubMed results do not seem to provide any direct evidence regarding the interaction between Deltex, eIF3f, and Notch activation. These results are mostly related to other topics such as dFOXO targets, kinetochore complexes, and polycomb group proteins. We should try searching Wikipedia for general background information.
+Action: search_wikipedia("Deltex eIF3f Notch activation")
+
+Observation: No results found.
+
+Thought: Since the PubMed search did not yield any relevant results, and the Wikipedia search also did not provide any useful information, we may need to refine our query or consider other databases that might have relevant data. However, given the current evidence, it seems challenging to verify the claim.
+Action: STOP
+

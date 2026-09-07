@@ -1,0 +1,31 @@
+Claim: Conformational changes of the CD3 complex enable ITAM phosphorylation.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: The claim states that conformational changes of the CD3 complex enable ITAM phosphorylation. To evaluate this, we need to understand if there are studies or evidence supporting a direct link between these two events.
+Action: search_pubmed("conformational changes CD3 complex ITAM phosphorylation")
+
+Observation: Result 1 [scifact] (ID: scifact_1744752): The 1.9 A structure of a proteasome-11S activator complex and implications for proteasome-PAN/PA700 interactions.
+  The 1.9 A structure of a proteasome-11S activator complex and implications for proteasome-PAN/PA700 interactions. Proteasomes are cylindrical structures that function in multiple cellular processes by degrading a wide variety of cytosolic and nuclear proteins. Substrate access and product release fr...
+Result 2 [scifact] (ID: scifact_38528892): The aurora B kinase promotes inner and outer kinetochore interactions in budding yeast.
+  The aurora B kinase promotes inner and outer kinetochore interactions in budding yeast. The kinetochore is the macromolecular protein complex that mediates chromosome segregation. The Dsn1 component is crucial for kinetochore assembly and is phosphorylated by the Aurora B kinase. We found that Auror...
+Result 3 [scifact] (ID: scifact_29073751): Redox-dependent downregulation of Rho by Rac
+  Redox-dependent downregulation of Rho by Rac Rac and Rho GTPases function as critical regulators of actin cytoskeleton remodelling during cell spreading and migration. Here we demonstrate that Rac-mediated reactive oxygen species (ROS) production results in the downregulation of Rho activity. The re...
+
+Thought: The initial PubMed search did not return any relevant results directly related to conformational changes of the CD3 complex enabling ITAM phosphorylation. I will try searching Wikipedia for general background information.
+Action: search_wikipedia("CD3 complex ITAM")
+
+Observation: No results found.
+
+Thought: Since the initial PubMed search did not yield relevant results, and the Wikipedia search also did not provide any useful information about CD3 complex and ITAM, I will refine my query to focus more specifically on the relationship between conformational changes of the CD3 complex and ITAM phosphorylation.
+Action: search_pubmed("CD3 complex conformational changes ITAM phosphorylation")
+
+Observation: Result 1 [scifact] (ID: scifact_1744752): The 1.9 A structure of a proteasome-11S activator complex and implications for proteasome-PAN/PA700 interactions.
+  The 1.9 A structure of a proteasome-11S activator complex and implications for proteasome-PAN/PA700 interactions. Proteasomes are cylindrical structures that function in multiple cellular processes by degrading a wide variety of cytosolic and nuclear proteins. Substrate access and product release fr...
+Result 2 [scifact] (ID: scifact_38528892): The aurora B kinase promotes inner and outer kinetochore interactions in budding yeast.
+  The aurora B kinase promotes inner and outer kinetochore interactions in budding yeast. The kinetochore is the macromolecular protein complex that mediates chromosome segregation. The Dsn1 component is crucial for kinetochore assembly and is phosphorylated by the Aurora B kinase. We found that Auror...
+Result 3 [scifact] (ID: scifact_29073751): Redox-dependent downregulation of Rho by Rac
+  Redox-dependent downregulation of Rho by Rac Rac and Rho GTPases function as critical regulators of actin cytoskeleton remodelling during cell spreading and migration. Here we demonstrate that Rac-mediated reactive oxygen species (ROS) production results in the downregulation of Rho activity. The re...
+

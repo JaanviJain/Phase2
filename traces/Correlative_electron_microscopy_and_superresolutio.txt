@@ -1,0 +1,24 @@
+Claim: Correlative electron microscopy and superresolution fluorescence imaging are imaging techniques.
+True Label: NEI
+Hops used: 2/3
+Evidence collected: 3
+======================================================================
+
+Thought: The claim states that correlative electron microscopy and superresolution fluorescence imaging are imaging techniques. To verify this, I should first gather general knowledge about these techniques to understand if they indeed fall under the category of imaging techniques.
+Action: search_wikipedia("correlative electron microscopy") OR search_wikipedia("superresolution fluorescence imaging") OR STOP
+
+Observation: No results found.
+
+Thought: Since no specific information was found on Wikipedia, I should try searching PubMed to see if there are any research articles that discuss these techniques in the context of being imaging methods.
+Action: search_pubmed("correlative electron microscopy AND imaging") OR search_pubmed("superresolution fluorescence imaging AND imaging") OR STOP
+
+Observation: Result 1 [scifact] (ID: scifact_10212612): Protein localization in electron micrographs using fluorescence nanoscopy
+  Protein localization in electron micrographs using fluorescence nanoscopy A complete portrait of a cell requires a detailed description of its molecular topography: proteins must be linked to particular organelles. Immunocytochemical electron microscopy can reveal locations of proteins with nanomete...
+Result 2 [scifact] (ID: scifact_46193478): A negative staining method for high resolution electron microscopy of viruses.
+  A negative staining method for high resolution electron microscopy of viruses. Abstract A simple technique has been developed for the study of the external form and structure of virus particles. High contrast with good preservation is obtained by mixing virus preparations with 1% phosphotungstic aci...
+Result 3 [scifact] (ID: scifact_9580772): Advances in high-resolution imaging--techniques for three-dimensional imaging of cellular structures.
+  Advances in high-resolution imaging--techniques for three-dimensional imaging of cellular structures. A fundamental goal in biology is to determine how cellular organization is coupled to function. To achieve this goal, a better understanding of organelle composition and structure is needed. Althoug...
+
+Thought: The PubMed results indicate that correlative electron microscopy and superresolution fluorescence imaging are indeed techniques used for imaging cellular structures and proteins. This supports the claim that these methods are imaging techniques.
+Action: STOP
+

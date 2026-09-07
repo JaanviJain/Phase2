@@ -1,0 +1,31 @@
+Claim: Distant CREs are more conserved among species.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: The claim mentions "Distant CREs," which likely refers to distal cis-regulatory elements in genetics. I need to understand more about these elements and their conservation among species before formulating a specific search query.
+Action: search_wikipedia("distal cis-regulatory elements")
+
+Observation: No results found.
+
+Thought: Since the initial attempt with Wikipedia did not yield any results, it suggests that "Distant CREs" might be a term used more specifically within scientific literature rather than being widely known outside of academic circles. I should refine my search query to include terms that are more likely to be used in research contexts.
+Action: search_pubmed("distant cis-regulatory elements conservation among species")
+
+Observation: Result 1 [scifact] (ID: scifact_16691520): Genome-wide analysis of estrogen receptor binding sites
+  Genome-wide analysis of estrogen receptor binding sites The estrogen receptor is the master transcriptional regulator of breast cancer phenotype and the archetype of a molecular therapeutic target. We mapped all estrogen receptor and RNA polymerase II binding sites on a genome-wide scale, identifyin...
+Result 2 [scifact] (ID: scifact_14658685): Enhancer Evolution across 20 Mammalian Species
+  Enhancer Evolution across 20 Mammalian Species The mammalian radiation has corresponded with rapid changes in noncoding regions of the genome, but we lack a comprehensive understanding of regulatory evolution in mammals. Here, we track the evolution of promoters and enhancers active in liver across ...
+Result 3 [scifact] (ID: scifact_39281166): Noncoding transcription at enhancers: general principles and functional models.
+  Noncoding transcription at enhancers: general principles and functional models. Mammalian genomes are extensively transcribed outside the borders of protein-coding genes. Genome-wide studies recently demonstrated that cis-regulatory genomic elements implicated in transcriptional control, such as enh...
+
+Thought: The PubMed search returned relevant results, indicating that there is research on the conservation of distal cis-regulatory elements (CREs) among species. Specifically, one study mentions the evolution of enhancers across 20 mammalian species, suggesting that these elements are indeed conserved. However, I need to gather more evidence to fully evaluate the claim.
+Action: search_pubmed("distant cis-regulatory elements conservation among species")
+
+Observation: Result 1 [scifact] (ID: scifact_16691520): Genome-wide analysis of estrogen receptor binding sites
+  Genome-wide analysis of estrogen receptor binding sites The estrogen receptor is the master transcriptional regulator of breast cancer phenotype and the archetype of a molecular therapeutic target. We mapped all estrogen receptor and RNA polymerase II binding sites on a genome-wide scale, identifyin...
+Result 2 [scifact] (ID: scifact_14658685): Enhancer Evolution across 20 Mammalian Species
+  Enhancer Evolution across 20 Mammalian Species The mammalian radiation has corresponded with rapid changes in noncoding regions of the genome, but we lack a comprehensive understanding of regulatory evolution in mammals. Here, we track the evolution of promoters and enhancers active in liver across ...
+Result 3 [scifact] (ID: scifact_39281166): Noncoding transcription at enhancers: general principles and functional models.
+  Noncoding transcription at enhancers: general principles and functional models. Mammalian genomes are extensively transcribed outside the borders of protein-coding genes. Genome-wide studies recently demonstrated that cis-regulatory genomic elements implicated in transcriptional control, such as enh...
+

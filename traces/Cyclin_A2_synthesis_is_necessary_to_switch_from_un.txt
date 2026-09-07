@@ -1,0 +1,31 @@
+Claim: Cyclin A2 synthesis is necessary to switch from unstable to stable kt-mt attachments in mitosis.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: The claim states that Cyclin A2 synthesis is necessary for switching attachments in mitosis. To evaluate this, I need to understand the role of Cyclin A2 and the process of stable kt-mt attachments during mitosis. Starting with a general search might provide context.
+Action: search_wikipedia("Cyclin A2")
+
+Observation: No results found.
+
+Thought: Since the initial Wikipedia search did not yield any results, it suggests that there might be limited general knowledge available on this specific topic. I should now try searching PubMed for research evidence related to Cyclin A2 and its role in mitosis.
+Action: search_pubmed("Cyclin A2 mitosis")
+
+Observation: Result 1 [scifact] (ID: scifact_29806339): Targeting mitotic exit leads to tumor regression in vivo: Modulation by Cdk1, Mastl, and the PP2A/B55α,δ phosphatase.
+  Targeting mitotic exit leads to tumor regression in vivo: Modulation by Cdk1, Mastl, and the PP2A/B55α,δ phosphatase. Targeting mitotic exit has been recently proposed as a relevant therapeutic approach against cancer. By using genetically engineered mice, we show that the APC/C cofactor Cdc20 is es...
+Result 2 [scifact] (ID: scifact_7622767): Human Cyclin a Is Required for Mitosis until Mid Prophase
+  Human Cyclin a Is Required for Mitosis until Mid Prophase We have used microinjection and time-lapse video microscopy to study the role of cyclin A in mitosis. We have injected purified, active cyclin A/cyclin-dependent kinase 2 (CDK2) into synchronized cells at specific points in the cell cycle and...
+Result 3 [scifact] (ID: scifact_45875990): Cyclin A2 is an RNA binding protein that controls Mre11 mRNA translation
+  Cyclin A2 is an RNA binding protein that controls Mre11 mRNA translation Cyclin A2 activates the cyclin-dependent kinases Cdk1 and Cdk2 and is expressed at elevated levels from S phase until early mitosis. We found that mutant mice that cannot elevate cyclin A2 are chromosomally unstable and tumor-p...
+
+Thought: The first PubMed search results provide some relevant information about Cyclin A2 in the context of mitosis, but they do not directly address whether Cyclin A2 synthesis is necessary for switching attachments between kinetochores (kt) and mitochondria (mt). I need to refine my query to focus more specifically on the role of Cyclin A2 in attachment stability during mitosis.
+Action: search_pubmed("Cyclin A2 mitosis stable attachments")
+
+Observation: Result 1 [scifact] (ID: scifact_45875990): Cyclin A2 is an RNA binding protein that controls Mre11 mRNA translation
+  Cyclin A2 is an RNA binding protein that controls Mre11 mRNA translation Cyclin A2 activates the cyclin-dependent kinases Cdk1 and Cdk2 and is expressed at elevated levels from S phase until early mitosis. We found that mutant mice that cannot elevate cyclin A2 are chromosomally unstable and tumor-p...
+Result 2 [scifact] (ID: scifact_24554740): Integrins and cell proliferation: regulation of cyclin-dependent kinases via cytoplasmic signaling pathways.
+  Integrins and cell proliferation: regulation of cyclin-dependent kinases via cytoplasmic signaling pathways. Cell cycle progression in mammalian cells is strictly regulated by both integrin-mediated adhesion to the extracellular matrix and by binding of growth factors to their receptors. This regula...
+Result 3 [scifact] (ID: scifact_19974105): Control over DNA replication in time and space.
+  Control over DNA replication in time and space. DNA replication is precisely regulated in time and space, thereby safeguarding genomic integrity. In eukaryotes, replication initiates from multiple sites along the genome, termed origins of replication, and propagates bidirectionally. Dynamic origin b...
+

@@ -1,0 +1,31 @@
+Claim: Broadly HIV-1 Neutralizing Antibodies (bnAb) 10EB exhibit a strong affinity for phospholipids.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to first gather general background information on 10EB antibodies and their properties, especially their interaction with phospholipids, before diving into specific research evidence.
+Action: search_wikipedia("HIV-1 Neutralizing Antibodies 10EB")
+
+Observation: No results found.
+
+Thought: Since the Wikipedia search did not yield any relevant information, it might be helpful to try searching PubMed directly with a refined query focusing on the specific claim about the affinity of 10EB antibodies for phospholipids.
+Action: search_pubmed("HIV-1 Neutralizing Antibodies 10EB and phospholipids")
+
+Observation: Result 1 [scifact] (ID: scifact_4421578): Broad and potent neutralization of HIV-1 by a gp41-specific human antibody
+  Broad and potent neutralization of HIV-1 by a gp41-specific human antibody Characterization of human monoclonal antibodies is providing considerable insight into mechanisms of broad HIV-1 neutralization. Here we report an HIV-1 gp41 membrane-proximal external region (MPER)-specific antibody, named 1...
+Result 2 [scifact] (ID: scifact_26038789): HIV-1 therapy with monoclonal antibody 3BNC117 elicits host immune responses against HIV-1
+  HIV-1 therapy with monoclonal antibody 3BNC117 elicits host immune responses against HIV-1 3BNC117 is a broad and potent neutralizing antibody to HIV-1 that targets the CD4 binding site on the viral envelope spike. When administered passively, this antibody can prevent infection in animal models and...
+Result 3 [scifact] (ID: scifact_23124332): Prion-induced amyloid heart disease with high blood infectivity in transgenic mice.
+  Prion-induced amyloid heart disease with high blood infectivity in transgenic mice. We investigated extraneural manifestations in scrapie-infected transgenic mice expressing prion protein lacking the glycophosphatydylinositol membrane anchor. In the brain, blood, and heart, both abnormal protease-re...
+
+Thought: The PubMed search results do not directly address the claim about 10EB antibodies' affinity for phospholipids. I need to refine my query to focus more specifically on 10EB antibodies and their interaction with phospholipids.
+Action: search_pubmed("HIV-1 Neutralizing Antibodies 10EB and phospholipid binding")
+
+Observation: Result 1 [scifact] (ID: scifact_26038789): HIV-1 therapy with monoclonal antibody 3BNC117 elicits host immune responses against HIV-1
+  HIV-1 therapy with monoclonal antibody 3BNC117 elicits host immune responses against HIV-1 3BNC117 is a broad and potent neutralizing antibody to HIV-1 that targets the CD4 binding site on the viral envelope spike. When administered passively, this antibody can prevent infection in animal models and...
+Result 2 [scifact] (ID: scifact_4421578): Broad and potent neutralization of HIV-1 by a gp41-specific human antibody
+  Broad and potent neutralization of HIV-1 by a gp41-specific human antibody Characterization of human monoclonal antibodies is providing considerable insight into mechanisms of broad HIV-1 neutralization. Here we report an HIV-1 gp41 membrane-proximal external region (MPER)-specific antibody, named 1...
+Result 3 [scifact] (ID: scifact_23124332): Prion-induced amyloid heart disease with high blood infectivity in transgenic mice.
+  Prion-induced amyloid heart disease with high blood infectivity in transgenic mice. We investigated extraneural manifestations in scrapie-infected transgenic mice expressing prion protein lacking the glycophosphatydylinositol membrane anchor. In the brain, blood, and heart, both abnormal protease-re...
+

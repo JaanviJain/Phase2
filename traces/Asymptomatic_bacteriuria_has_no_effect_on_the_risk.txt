@@ -1,0 +1,39 @@
+Claim: Asymptomatic bacteriuria has no effect on the risk for preterm delivery and low birth weight.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: We need to gather evidence on the relationship between asymptomatic bacteriuria (AB) and preterm delivery as well as low birth weight. A Pubmed search would be appropriate for this claim.
+Action: search_pubmed("asymptomatic bacteriuria preterm delivery") OR search_wikipedia("asymptomatic bacteriuria preterm delivery") OR STOP
+
+Observation: Result 1 [scifact] (ID: scifact_18574146): Evaluation of reagent strips in detecting asymptomatic bacteriuria in early pregnancy: prospective case series.
+  Evaluation of reagent strips in detecting asymptomatic bacteriuria in early pregnancy: prospective case series. OBJECTIVE To evaluate the performance of reagent test strips in screening pregnant women for asymptomatic bacteriuria at their first visit to an antenatal clinic.   
+ DESIGN Prospective ca...
+Result 2 [scifact] (ID: scifact_1958440): Human chorionic gonadotropin levels in maternal blood in late pregnancy: relation to birthweight, sex and condition of the infant at birth.
+  Human chorionic gonadotropin levels in maternal blood in late pregnancy: relation to birthweight, sex and condition of the infant at birth. A total of 527 blood samples was obtained from an unselected population of women between 36 and 40 weeks gestation. Serum human chorionic gonadotropin (hCG) lev...
+Result 3 [scifact] (ID: scifact_40754510): Staphylococcus aureus infections.
+  Staphylococcus aureus infections. Micrococcus, which, when limited in its extent and activity, causes acute suppurative inflammation (phlegmon), produces, when more extensive and intense in its action on the human system, the most virulent forms of septicaemia and pyaemia.1 In an elegant series of c...
+
+Thought: The first PubMed search provided some relevant information regarding asymptomatic bacteriuria screening during pregnancy but did not directly address the relationship between AB and preterm delivery or low birth weight. We need to refine our query to specifically target these outcomes.
+Action: search_pubmed("asymptomatic bacteriuria preterm delivery OR low birth weight")
+
+Observation: Result 1 [scifact] (ID: scifact_18574146): Evaluation of reagent strips in detecting asymptomatic bacteriuria in early pregnancy: prospective case series.
+  Evaluation of reagent strips in detecting asymptomatic bacteriuria in early pregnancy: prospective case series. OBJECTIVE To evaluate the performance of reagent test strips in screening pregnant women for asymptomatic bacteriuria at their first visit to an antenatal clinic.   
+ DESIGN Prospective ca...
+Result 2 [scifact] (ID: scifact_1958440): Human chorionic gonadotropin levels in maternal blood in late pregnancy: relation to birthweight, sex and condition of the infant at birth.
+  Human chorionic gonadotropin levels in maternal blood in late pregnancy: relation to birthweight, sex and condition of the infant at birth. A total of 527 blood samples was obtained from an unselected population of women between 36 and 40 weeks gestation. Serum human chorionic gonadotropin (hCG) lev...
+Result 3 [scifact] (ID: scifact_33740844): Effect of women's nutrition before and during early pregnancy on maternal and infant outcomes: a systematic review.
+  Effect of women's nutrition before and during early pregnancy on maternal and infant outcomes: a systematic review. Current understanding of biologic processes indicates that women's nutritional status before and during early pregnancy may play an important role in determining early developmental pr...
+
+Thought: The current PubMed search results still do not directly address the relationship between asymptomatic bacteriuria (AB) and preterm delivery or low birth weight. We need to refine our query further to ensure we are focusing on studies that investigate this specific claim.
+Action: search_pubmed("asymptomatic bacteriuria preterm delivery OR low birth weight AND pregnancy")
+
+Observation: Result 1 [scifact] (ID: scifact_1958440): Human chorionic gonadotropin levels in maternal blood in late pregnancy: relation to birthweight, sex and condition of the infant at birth.
+  Human chorionic gonadotropin levels in maternal blood in late pregnancy: relation to birthweight, sex and condition of the infant at birth. A total of 527 blood samples was obtained from an unselected population of women between 36 and 40 weeks gestation. Serum human chorionic gonadotropin (hCG) lev...
+Result 2 [scifact] (ID: scifact_18574146): Evaluation of reagent strips in detecting asymptomatic bacteriuria in early pregnancy: prospective case series.
+  Evaluation of reagent strips in detecting asymptomatic bacteriuria in early pregnancy: prospective case series. OBJECTIVE To evaluate the performance of reagent test strips in screening pregnant women for asymptomatic bacteriuria at their first visit to an antenatal clinic.   
+ DESIGN Prospective ca...
+Result 3 [scifact] (ID: scifact_33740844): Effect of women's nutrition before and during early pregnancy on maternal and infant outcomes: a systematic review.
+  Effect of women's nutrition before and during early pregnancy on maternal and infant outcomes: a systematic review. Current understanding of biologic processes indicates that women's nutritional status before and during early pregnancy may play an important role in determining early developmental pr...
+

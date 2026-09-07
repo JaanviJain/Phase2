@@ -1,0 +1,32 @@
+Claim: Athletes with or without a concussion have smaller volumes of hippocampal gray matter compared to healthy controls.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to first gather some background information on the claim to understand if there's any existing research or general knowledge that supports or refutes it.
+Action: search_wikipedia("hippocampal gray matter in athletes")
+
+Observation: No results found.
+
+Thought: Since the initial attempt with Wikipedia did not yield any useful information, we should try searching PubMed directly for relevant clinical or research evidence on this topic. This will help us evaluate the claim more accurately.
+Action: search_pubmed("hippocampal gray matter athletes concussion")
+
+Observation: Result 1 [scifact] (ID: scifact_10765888): Immune cells contribute to the maintenance of neurogenesis and spatial learning abilities in adulthood
+  Immune cells contribute to the maintenance of neurogenesis and spatial learning abilities in adulthood Neurogenesis is known to take place in the adult brain. This work identifies T lymphocytes and microglia as being important to the maintenance of hippocampal neurogenesis and spatial learning abili...
+Result 2 [scifact] (ID: scifact_16284655): Forebrain engraftment by human glial progenitor cells enhances synaptic plasticity and learning in adult mice.
+  Forebrain engraftment by human glial progenitor cells enhances synaptic plasticity and learning in adult mice. Human astrocytes are larger and more complex than those of infraprimate mammals, suggesting that their role in neural processing has expanded with evolution. To assess the cell-autonomous a...
+Result 3 [scifact] (ID: scifact_28530299): Division-coupled astrocytic differentiation and age-related depletion of neural stem cells in the adult hippocampus.
+  Division-coupled astrocytic differentiation and age-related depletion of neural stem cells in the adult hippocampus. Production of new neurons in the adult hippocampus decreases with age; this decline may underlie age-related cognitive impairment. Here we show that continuous depletion of the neural...
+
+Thought: The initial PubMed search results do not directly address athletes or concussions, but rather focus on neurogenesis and astrocytic differentiation in general. We need to refine our query to better target the specific claim about athletes with or without a concussion having smaller volumes of hippocampal gray matter compared to healthy controls.
+Action: search_pubmed("hippocampal gray matter athletes concussion volume")
+
+Observation: Result 1 [scifact] (ID: scifact_2424794): A neuroimaging investigation of the association between aerobic fitness, hippocampal volume, and memory performance in preadolescent children.
+  A neuroimaging investigation of the association between aerobic fitness, hippocampal volume, and memory performance in preadolescent children. Because children are becoming overweight, unhealthy, and unfit, understanding the neurocognitive benefits of an active lifestyle in childhood has important p...
+Result 2 [scifact] (ID: scifact_22107641): Late-life depression and microstructural abnormalities in dorsolateral prefrontal cortex white matter.
+  Late-life depression and microstructural abnormalities in dorsolateral prefrontal cortex white matter. OBJECTIVE The purpose of this study was to determine whether microstructural abnormalities in the white matter of the dorsolateral prefrontal cortex are associated with late-life depression.   
+ ME...
+Result 3 [scifact] (ID: scifact_28530299): Division-coupled astrocytic differentiation and age-related depletion of neural stem cells in the adult hippocampus.
+  Division-coupled astrocytic differentiation and age-related depletion of neural stem cells in the adult hippocampus. Production of new neurons in the adult hippocampus decreases with age; this decline may underlie age-related cognitive impairment. Here we show that continuous depletion of the neural...
+

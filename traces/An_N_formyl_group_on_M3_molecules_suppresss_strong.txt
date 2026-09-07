@@ -1,0 +1,31 @@
+Claim: An N-formyl group on M3 molecules suppresss strong binding to the second position of the groove.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: The claim mentions a specific molecular structure (N-formyl group on M3 molecules) and its interaction with the second position of a groove, which suggests this might be related to drug design or protein interactions. However, I don't have enough context about what "M3" refers to without further research. A PubMed search could provide relevant studies, but if there are no results, it would be good to get some general background information from Wikipedia.
+Action: search_pubmed("N-formyl group M3 molecules binding") OR search_wikipedia("M3 receptor")
+
+Observation: Result 1 [scifact] (ID: scifact_94109411): Improved Au/Zn/Au ohmic contacts for p-type InP
+  Improved Au/Zn/Au ohmic contacts for p-type InP In this work, an innovated Si3N4 as an out-diffusion barrier layer to Au/Zn/Au contact system for p-type InP has been proposed. Before the contacts were annealed, Si3N4 layer was deposited on the Au(200Å)/Zn(700Å)/Au(200Å), then the Si3N4 was removed b...
+Result 2 [scifact] (ID: scifact_16270577): Nonclassical binding of formylated peptide in crystal structure of the MHC class lb molecule H2-M3
+  Nonclassical binding of formylated peptide in crystal structure of the MHC class lb molecule H2-M3 H2-M3 is a class Ib MHC molecule of the mouse with a 10(4)-fold preference for binding N-formylated peptides. To elucidate the basis of this unusual specificity, we expressed and crystallized a soluble...
+Result 3 [scifact] (ID: scifact_20101846): Homogeneously dispersed multimetal oxygen-evolving catalysts
+  Homogeneously dispersed multimetal oxygen-evolving catalysts Earth-abundant first-row (3d) transition metal–based catalysts have been developed for the oxygen-evolution reaction (OER); however, they operate at overpotentials substantially above thermodynamic requirements. Density functional theory s...
+
+Thought: The search results are not directly related to M3 molecules and their interaction with a groove. However, one result mentions "MHC class Ib molecule H2-M3" which is relevant. This suggests that M3 might refer to a type of protein or receptor. I need more specific information on the N-formyl group's role in binding interactions.
+Action: search_wikipedia("M3 receptor")
+
+Observation: No results found.
+
+Thought: Since searching Wikipedia did not yield any relevant information about M3 receptors, it is possible that "M3" refers to a specific protein or molecule type rather than being a commonly known term like a receptor. However, the PubMed search provided some context regarding N-formyl peptides and their binding with H2-M3 molecules. This suggests that the claim might be related to interactions between formylated peptides and MHC class Ib molecules. I should refine my query to focus more specifically on this interaction.
+Action: search_pubmed("N-formyl group binding MHC class Ib")
+
+Observation: Result 1 [scifact] (ID: scifact_16270577): Nonclassical binding of formylated peptide in crystal structure of the MHC class lb molecule H2-M3
+  Nonclassical binding of formylated peptide in crystal structure of the MHC class lb molecule H2-M3 H2-M3 is a class Ib MHC molecule of the mouse with a 10(4)-fold preference for binding N-formylated peptides. To elucidate the basis of this unusual specificity, we expressed and crystallized a soluble...
+Result 2 [scifact] (ID: scifact_32450297): Evidence for energy-dependent accumulation of paraquat into rat lung
+  Evidence for energy-dependent accumulation of paraquat into rat lung THE herbicide paraquat (N,N′-dimethyl 4,4′-bipyridilium) can produce widespread oedema and fibrosis in the human lung after accidental ingestion1–3. In those cases where death occurs after several weeks, there are no apparent pulmo...
+Result 3 [scifact] (ID: scifact_41913714): Cardiac glycosides inhibit TNF-α/NF-κB signaling by blocking recruitment of TNF receptor-associated death domain to the TNF receptor
+  Cardiac glycosides inhibit TNF-α/NF-κB signaling by blocking recruitment of TNF receptor-associated death domain to the TNF receptor Digitoxin and structurally related cardiac glycoside drugs potently block activation of the TNF-α/NF-κB signaling pathway. We have hypothesized that the mechanism migh...
+

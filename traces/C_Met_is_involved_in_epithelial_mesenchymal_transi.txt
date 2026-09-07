@@ -1,0 +1,31 @@
+Claim: C-Met is involved in epithelial-mesenchymal transition in tumor cells.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: I need to gather initial evidence on whether C-Met is involved in epithelial-mesenchymal transition (EMT) in tumor cells. Starting with a PubMed search will provide the most relevant research articles.
+Action: search_pubmed("C-Met involvement in epithelial-mesenchymal transition tumor cells")
+
+Observation: Result 1 [scifact] (ID: scifact_5236443): Epithelial–mesenchymal transitions in tumour progression
+  Epithelial–mesenchymal transitions in tumour progression Without epithelial–mesenchymal transitions, in which polarized epithelial cells are converted into motile cells, multicellular organisms would be incapable of getting past the blastula stage of embryonic development. However, this important de...
+Result 2 [scifact] (ID: scifact_1791714): Spatiotemporal regulation of epithelial-mesenchymal transition is essential for squamous cell carcinoma metastasis.
+  Spatiotemporal regulation of epithelial-mesenchymal transition is essential for squamous cell carcinoma metastasis. Epithelial-mesenchymal transition (EMT) is implicated in converting stationary epithelial tumor cells into motile mesenchymal cells during metastasis. However, the involvement of EMT i...
+Result 3 [scifact] (ID: scifact_20333864): Regulation of in situ to invasive breast carcinoma transition.
+  Regulation of in situ to invasive breast carcinoma transition. The transition of ductal carcinoma in situ (DCIS) to invasive carcinoma is a poorly understood key event in breast tumor progression. Here, we analyzed the role of myoepithelial cells and fibroblasts in the progression of in situ carcino...
+
+Thought: From the initial PubMed search, I have found some relevant articles that mention C-Met's involvement in epithelial-mesenchymal transition (EMT) in tumor cells. However, to confirm this claim more specifically with regards to C-Met, I should conduct another targeted PubMed search.
+Action: search_pubmed("C-Met and epithelial-mesenchymal transition tumor cells")
+
+Observation: Result 1 [scifact] (ID: scifact_5236443): Epithelial–mesenchymal transitions in tumour progression
+  Epithelial–mesenchymal transitions in tumour progression Without epithelial–mesenchymal transitions, in which polarized epithelial cells are converted into motile cells, multicellular organisms would be incapable of getting past the blastula stage of embryonic development. However, this important de...
+Result 2 [scifact] (ID: scifact_20333864): Regulation of in situ to invasive breast carcinoma transition.
+  Regulation of in situ to invasive breast carcinoma transition. The transition of ductal carcinoma in situ (DCIS) to invasive carcinoma is a poorly understood key event in breast tumor progression. Here, we analyzed the role of myoepithelial cells and fibroblasts in the progression of in situ carcino...
+Result 3 [scifact] (ID: scifact_1791714): Spatiotemporal regulation of epithelial-mesenchymal transition is essential for squamous cell carcinoma metastasis.
+  Spatiotemporal regulation of epithelial-mesenchymal transition is essential for squamous cell carcinoma metastasis. Epithelial-mesenchymal transition (EMT) is implicated in converting stationary epithelial tumor cells into motile mesenchymal cells during metastasis. However, the involvement of EMT i...
+
+Thought: After conducting a more targeted PubMed search, I still do not see any specific evidence regarding C-Met's involvement in epithelial-mesenchymal transition (EMT) in tumor cells. It seems that the connection might be implied or discussed in broader contexts related to EMT and tumor progression. However, given the limited results, I will try a Wikipedia search for general background information to see if it provides any insights.
+Action: search_wikipedia("C-Met and epithelial-mesenchymal transition")
+
+Observation: No results found.
+

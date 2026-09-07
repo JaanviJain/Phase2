@@ -1,0 +1,36 @@
+Claim: Bariatric surgery reduces resolution of diabetes.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: We need to first gather some initial information on whether bariatric surgery affects diabetes resolution. A PubMed search would be appropriate for this claim as it focuses on clinical and research evidence.
+Action: search_pubmed("bariatric surgery reduces diabetes resolution")
+
+Observation: Result 1 [scifact] (ID: scifact_8708082): The prevention of type 2 diabetes
+  The prevention of type 2 diabetes Type 2 diabetes mellitus (T2DM) affects more than 7% of adults in the US and leads to substantial personal and economic burden. In prediabetic states insulin secretion and action—potential targets of preventive interventions—are impaired. In trials lifestyle modific...
+Result 2 [scifact] (ID: scifact_33127778): Early gastric cancer and dysplasia.
+  Early gastric cancer and dysplasia. Since the concept of early gastric cancer was first described in Japan in 1962, its treatment has evolved from curative surgical resection to endoscopic resection, initially with polypectomy to more recently with endoscopic submucosal dissection. As worldwide expe...
+Result 3 [scifact] (ID: scifact_11481946): Obesity, type 2 diabetes, and cancer: the insulin and IGF connection.
+  Obesity, type 2 diabetes, and cancer: the insulin and IGF connection. Epidemiological studies suggest a positive association between obesity and type 2 diabetes mellitus (T2D) with the risk of cancer and cancer-related mortality. Insulin resistance, hyperinsulinemia, increased levels of IGF, elevate...
+
+Thought: The results do not directly address the claim about bariatric surgery reducing resolution of diabetes. We need more specific evidence related to bariatric surgery and its impact on diabetes resolution. A PubMed search with a refined query will be more appropriate.
+Action: search_pubmed("bariatric surgery and diabetes resolution")
+
+Observation: Result 1 [scifact] (ID: scifact_11481946): Obesity, type 2 diabetes, and cancer: the insulin and IGF connection.
+  Obesity, type 2 diabetes, and cancer: the insulin and IGF connection. Epidemiological studies suggest a positive association between obesity and type 2 diabetes mellitus (T2D) with the risk of cancer and cancer-related mortality. Insulin resistance, hyperinsulinemia, increased levels of IGF, elevate...
+Result 2 [scifact] (ID: scifact_33127778): Early gastric cancer and dysplasia.
+  Early gastric cancer and dysplasia. Since the concept of early gastric cancer was first described in Japan in 1962, its treatment has evolved from curative surgical resection to endoscopic resection, initially with polypectomy to more recently with endoscopic submucosal dissection. As worldwide expe...
+Result 3 [scifact] (ID: scifact_41120293): The Intestinal Immune System in Obesity and Insulin Resistance.
+  The Intestinal Immune System in Obesity and Insulin Resistance. Obesity and insulin resistance are associated with chronic inflammation in metabolic tissues such as adipose tissue and the liver. Recently, growing evidence has implicated the intestinal immune system as an important contributor to met...
+
+Thought: The results still do not directly address the claim about bariatric surgery reducing resolution of diabetes. We need more specific studies that focus on the relationship between bariatric surgery and diabetes resolution. A PubMed search with a refined query will be more appropriate.
+Action: search_pubmed("bariatric surgery effect on diabetes resolution")
+
+Observation: Result 1 [scifact] (ID: scifact_33127778): Early gastric cancer and dysplasia.
+  Early gastric cancer and dysplasia. Since the concept of early gastric cancer was first described in Japan in 1962, its treatment has evolved from curative surgical resection to endoscopic resection, initially with polypectomy to more recently with endoscopic submucosal dissection. As worldwide expe...
+Result 2 [scifact] (ID: scifact_71341302): Vegetarian vs. conventional diabetic diet – A 1-year follow-up
+  Vegetarian vs. conventional diabetic diet – A 1-year follow-up Abstract Objective Our previous 6-month, randomized study demonstrated the beneficial effect of a vegetarian (V) compared to a conventional diet (C) with similar caloric restriction on cardiovascular risk factors for patients with type 2...
+Result 3 [scifact] (ID: scifact_11481946): Obesity, type 2 diabetes, and cancer: the insulin and IGF connection.
+  Obesity, type 2 diabetes, and cancer: the insulin and IGF connection. Epidemiological studies suggest a positive association between obesity and type 2 diabetes mellitus (T2D) with the risk of cancer and cancer-related mortality. Insulin resistance, hyperinsulinemia, increased levels of IGF, elevate...
+

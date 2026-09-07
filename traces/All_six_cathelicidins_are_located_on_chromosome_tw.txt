@@ -1,0 +1,31 @@
+Claim: All six cathelicidins are located on chromosome two.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: The claim states that all six cathelicidins are located on chromosome two, which seems specific and factual. I should first check if there's any recent research or clinical evidence supporting this statement.
+Action: search_pubmed("cathelicidin location chromosome")
+
+Observation: Result 1 [scifact] (ID: scifact_38675228): A molecular framework for plant regeneration.
+  A molecular framework for plant regeneration. Plants and some animals have a profound capacity to regenerate organs from adult tissues. Molecular mechanisms for regeneration have, however, been largely unexplored. Here we investigate a local regeneration response in Arabidopsis roots. Laser-induced ...
+Result 2 [scifact] (ID: scifact_20942644): Unmarked gene deletion and host–vector system for the hyperthermophilic crenarchaeon Sulfolobus islandicus
+  Unmarked gene deletion and host–vector system for the hyperthermophilic crenarchaeon Sulfolobus islandicus Sulfolobus islandicus is being used as a model for studying archaeal biology, geo-biology and evolution. However, no genetic system is available for this organism. To produce an S. islandicus m...
+Result 3 [scifact] (ID: scifact_5035851): Cryptochromes Enabling Plants and Animals to Determine Circadian Time
+  Cryptochromes Enabling Plants and Animals to Determine Circadian Time Cryptochromes are flavin-containing blue light photoreceptors related to photolyases-they are found in both plants and animals and have recently been described for bacteria. In plants, cryptochromes perform a variety of functions ...
+
+Thought: The PubMed search did not yield any relevant results directly related to cathelicidins and their chromosome location. I should now check Wikipedia for general background information on cathelicidins.
+Action: search_wikipedia("cathelicidin")
+
+Observation: No results found.
+
+Thought: Since the PubMed search did not yield relevant results, and the Wikipedia search also did not provide any useful information, I need to refine my query. The claim mentions "all six cathelicidins," which might be specific enough to find some information if structured properly. However, a broader approach might help in understanding more about cathelicidins and their locations.
+Action: search_pubmed("cathelicidin human chromosome location")
+
+Observation: Result 1 [scifact] (ID: scifact_20942644): Unmarked gene deletion and host–vector system for the hyperthermophilic crenarchaeon Sulfolobus islandicus
+  Unmarked gene deletion and host–vector system for the hyperthermophilic crenarchaeon Sulfolobus islandicus Sulfolobus islandicus is being used as a model for studying archaeal biology, geo-biology and evolution. However, no genetic system is available for this organism. To produce an S. islandicus m...
+Result 2 [scifact] (ID: scifact_13439128): The Bloom's syndrome gene product is homologous to RecQ helicases
+  The Bloom's syndrome gene product is homologous to RecQ helicases The Bloom's syndrome (BS) gene, BLM, plays an important role in the maintenance of genomic stability in somatic cells. A candidate for BLM was identified by direct selection of a cDNA derived from a 250 kb segment of the genome to whi...
+Result 3 [scifact] (ID: scifact_10335603): Long tandem arrays of complex repeat units in Chironomus telomeres.
+  Long tandem arrays of complex repeat units in Chironomus telomeres. A cloned 340-bp DNA fragment excised by EcoRI from the Chironomus pallividittatus genome has been localized to the telomeres by in situ hybridization as well as to connectives between telomeres. No hybridization was observed in othe...
+

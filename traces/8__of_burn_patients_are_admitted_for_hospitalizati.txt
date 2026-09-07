@@ -1,0 +1,36 @@
+Claim: 8% of burn patients are admitted for hospitalization and further treatment after appearing at hospital emergency wards or outpatient clinics.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: I need to gather evidence regarding the percentage of burn patients who are admitted for hospitalization after initially appearing at emergency wards or outpatient clinics. The most reliable source would be clinical research, which PubMed can provide.
+Action: search_pubmed("burn patients hospital admission rate")
+
+Observation: Result 1 [scifact] (ID: scifact_43128141): Enteral nutrition in the critically ill patient.
+  Enteral nutrition in the critically ill patient. Timing and route of nutrition provided to critically ill patients can affect their outcome. Early enteral nutrition has been shown to decrease specifically infectious morbidity in the critically ill patient. There is a small group of patients who are ...
+Result 2 [scifact] (ID: scifact_9658390): Costs of the COPD. Differences between intensive care unit and respiratory intermediate care unit.
+  Costs of the COPD. Differences between intensive care unit and respiratory intermediate care unit. INTRODUCTION To assess whether respiratory intermediate care units (RICUs) are cost effective alternatives to intensive care units (ICUs) for patients with exacerbation of chronic obstructive pulmonary...
+Result 3 [scifact] (ID: scifact_10577574): The impact of open versus closed format ICU admission practices on the outcome of high risk surgical patients: a cohort analysis
+  The impact of open versus closed format ICU admission practices on the outcome of high risk surgical patients: a cohort analysis BACKGROUND In the year 2000, the organizational structure of the ICU in the Zaandam Medical Centre (ZMC) changed from an open to a closed format ICU. The objective of this...
+
+Thought: The PubMed results do not provide any direct information about the percentage of burn patients admitted for hospitalization after initial visits to emergency wards or outpatient clinics. I need to refine my query to specifically target burn patients and their admission rates.
+Action: search_pubmed("burn patients hospital admission rate emergency")
+
+Observation: Result 1 [scifact] (ID: scifact_43128141): Enteral nutrition in the critically ill patient.
+  Enteral nutrition in the critically ill patient. Timing and route of nutrition provided to critically ill patients can affect their outcome. Early enteral nutrition has been shown to decrease specifically infectious morbidity in the critically ill patient. There is a small group of patients who are ...
+Result 2 [scifact] (ID: scifact_9658390): Costs of the COPD. Differences between intensive care unit and respiratory intermediate care unit.
+  Costs of the COPD. Differences between intensive care unit and respiratory intermediate care unit. INTRODUCTION To assess whether respiratory intermediate care units (RICUs) are cost effective alternatives to intensive care units (ICUs) for patients with exacerbation of chronic obstructive pulmonary...
+Result 3 [scifact] (ID: scifact_21323587): The impact of organisational change on outcome in an intensive care unit in the United Kingdom
+  The impact of organisational change on outcome in an intensive care unit in the United Kingdom Objectives: To study the change in outcome for patients admitted to an intensive care unit following the establishment of a team of resident medical staff and a change from an "open" to a "closed" organisa...
+
+Thought: The PubMed results are still not providing any relevant information regarding the percentage of burn patients who are admitted for hospitalization after initially appearing at emergency wards or outpatient clinics. I need to refine my query further to specifically address burn cases and admission rates.
+Action: search_pubmed("burn patients hospital admission rate emergency ward outpatient clinic")
+
+Observation: Result 1 [scifact] (ID: scifact_9658390): Costs of the COPD. Differences between intensive care unit and respiratory intermediate care unit.
+  Costs of the COPD. Differences between intensive care unit and respiratory intermediate care unit. INTRODUCTION To assess whether respiratory intermediate care units (RICUs) are cost effective alternatives to intensive care units (ICUs) for patients with exacerbation of chronic obstructive pulmonary...
+Result 2 [scifact] (ID: scifact_21323587): The impact of organisational change on outcome in an intensive care unit in the United Kingdom
+  The impact of organisational change on outcome in an intensive care unit in the United Kingdom Objectives: To study the change in outcome for patients admitted to an intensive care unit following the establishment of a team of resident medical staff and a change from an "open" to a "closed" organisa...
+Result 3 [scifact] (ID: scifact_41493639): ABC of burns. Introduction.
+  ABC of burns. Introduction. Burns are one of the most devastating conditions encountered in medicine. The injury represents an assault on all aspects of the patient, from the physical to the psychological. It affects all ages, from babies to elderly people, and is a problem in both the developed and...
+

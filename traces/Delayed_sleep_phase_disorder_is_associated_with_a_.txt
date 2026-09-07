@@ -1,0 +1,36 @@
+Claim: Delayed sleep phase disorder is associated with a dominant coding variation the core circadian clock gene CRY1.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: We need to gather evidence regarding the association between delayed sleep phase disorder and variations in the CRY1 gene, which is part of the core circadian clock. Starting with a PubMed search will help us find relevant research articles.
+Action: search_pubmed("delayed sleep phase disorder CRY1 gene")
+
+Observation: Result 1 [scifact] (ID: scifact_4587978): Mutation of the Human Circadian Clock Gene CRY1 in Familial Delayed Sleep Phase Disorder
+  Mutation of the Human Circadian Clock Gene CRY1 in Familial Delayed Sleep Phase Disorder Patterns of daily human activity are controlled by an intrinsic circadian clock that promotes ∼24 hr rhythms in many behavioral and physiological processes. This system is altered in delayed sleep phase disorder...
+Result 2 [scifact] (ID: scifact_31554917): A clinical approach to circadian rhythm sleep disorders.
+  A clinical approach to circadian rhythm sleep disorders. Circadian rhythm sleep disorders are characterized by complaints of insomnia and excessive sleepiness that are primarily due to alterations in the internal circadian timing system or a misalignment between the timing of sleep and the 24-h soci...
+Result 3 [scifact] (ID: scifact_34747208): Lamin A-dependent nuclear defects in human aging.
+  Lamin A-dependent nuclear defects in human aging. Mutations in the nuclear structural protein lamin A cause the premature aging syndrome Hutchinson-Gilford progeria (HGPS). Whether lamin A plays any role in normal aging is unknown. We show that the same molecular mechanism responsible for HGPS is ac...
+
+Thought: The first PubMed search has provided relevant evidence suggesting a connection between delayed sleep phase disorder and mutations in the CRY1 gene. However, to further validate this claim and gather more specific information, we should refine our query to focus on the exact relationship between CRY1 and delayed sleep phase disorder.
+Action: search_pubmed("delayed sleep phase disorder CRY1 association")
+
+Observation: Result 1 [scifact] (ID: scifact_4587978): Mutation of the Human Circadian Clock Gene CRY1 in Familial Delayed Sleep Phase Disorder
+  Mutation of the Human Circadian Clock Gene CRY1 in Familial Delayed Sleep Phase Disorder Patterns of daily human activity are controlled by an intrinsic circadian clock that promotes ∼24 hr rhythms in many behavioral and physiological processes. This system is altered in delayed sleep phase disorder...
+Result 2 [scifact] (ID: scifact_34747208): Lamin A-dependent nuclear defects in human aging.
+  Lamin A-dependent nuclear defects in human aging. Mutations in the nuclear structural protein lamin A cause the premature aging syndrome Hutchinson-Gilford progeria (HGPS). Whether lamin A plays any role in normal aging is unknown. We show that the same molecular mechanism responsible for HGPS is ac...
+Result 3 [scifact] (ID: scifact_31554917): A clinical approach to circadian rhythm sleep disorders.
+  A clinical approach to circadian rhythm sleep disorders. Circadian rhythm sleep disorders are characterized by complaints of insomnia and excessive sleepiness that are primarily due to alterations in the internal circadian timing system or a misalignment between the timing of sleep and the 24-h soci...
+
+Thought: The results from the second PubMed search did not provide new, more specific information regarding the association between delayed sleep phase disorder and CRY1 gene variations. It seems that the initial query might have been too broad or the evidence is scattered across multiple studies without a direct statement of association. To get clearer evidence, I will attempt to refine the query further by focusing on the specific genetic variant and its connection to delayed sleep phase disorder.
+Action: search_pubmed("delayed sleep phase disorder CRY1 gene mutation")
+
+Observation: Result 1 [scifact] (ID: scifact_4587978): Mutation of the Human Circadian Clock Gene CRY1 in Familial Delayed Sleep Phase Disorder
+  Mutation of the Human Circadian Clock Gene CRY1 in Familial Delayed Sleep Phase Disorder Patterns of daily human activity are controlled by an intrinsic circadian clock that promotes ∼24 hr rhythms in many behavioral and physiological processes. This system is altered in delayed sleep phase disorder...
+Result 2 [scifact] (ID: scifact_1583134): Positional cloning of the APECED gene
+  Positional cloning of the APECED gene Autoimmune polyglandular syndrome type I (APS 1, also called APECED) is an autosomal-recessive disorder that maps to human chromosome 21q22.3 between markers D21S49 and D21S171 by linkage studies. We have isolated a novel gene from this region, AIRE (autoimmune ...
+Result 3 [scifact] (ID: scifact_34747208): Lamin A-dependent nuclear defects in human aging.
+  Lamin A-dependent nuclear defects in human aging. Mutations in the nuclear structural protein lamin A cause the premature aging syndrome Hutchinson-Gilford progeria (HGPS). Whether lamin A plays any role in normal aging is unknown. We show that the same molecular mechanism responsible for HGPS is ac...
+

@@ -1,0 +1,31 @@
+Claim: Adult tissue-resident macrophages possess a self-renewing capacity.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to first gather general background information on tissue-resident macrophages and their properties to understand the claim better.
+Action: search_wikipedia("tissue-resident macrophages")
+
+Observation: No results found.
+
+Thought: Since we couldn't find any relevant information through Wikipedia, let's try searching PubMed directly for evidence regarding the self-renewing capacity of adult tissue-resident macrophages.
+Action: search_pubmed("adult tissue-resident macrophages self-renewal")
+
+Observation: Result 1 [scifact] (ID: scifact_22406695): Origin and functions of tissue macrophages.
+  Origin and functions of tissue macrophages. Macrophages are distributed in tissues throughout the body and contribute to both homeostasis and disease. Recently, it has become evident that most adult tissue macrophages originate during embryonic development and not from circulating monocytes. Each ti...
+Result 2 [scifact] (ID: scifact_5567223): Plasticity of epithelial stem cells in tissue regeneration
+  Plasticity of epithelial stem cells in tissue regeneration Tissues rely upon stem cells for homeostasis and repair. Recent studies show that the fate and multilineage potential of epithelial stem cells can change depending on whether a stem cell exists within its resident niche and responds to norma...
+Result 3 [scifact] (ID: scifact_22791348): The dendritic cell lineage: ontogeny and function of dendritic cells and their subsets in the steady state and the inflamed setting.
+  The dendritic cell lineage: ontogeny and function of dendritic cells and their subsets in the steady state and the inflamed setting. Dendritic cells (DCs) form a remarkable cellular network that shapes adaptive immune responses according to peripheral cues. After four decades of research, we now kno...
+
+Thought: The PubMed search returned results but did not directly address the self-renewal capacity of adult tissue-resident macrophages. We need more specific information on this topic.
+Action: search_pubmed("self-renewal capacity of adult tissue-resident macrophages")
+
+Observation: Result 1 [scifact] (ID: scifact_5567223): Plasticity of epithelial stem cells in tissue regeneration
+  Plasticity of epithelial stem cells in tissue regeneration Tissues rely upon stem cells for homeostasis and repair. Recent studies show that the fate and multilineage potential of epithelial stem cells can change depending on whether a stem cell exists within its resident niche and responds to norma...
+Result 2 [scifact] (ID: scifact_22406695): Origin and functions of tissue macrophages.
+  Origin and functions of tissue macrophages. Macrophages are distributed in tissues throughout the body and contribute to both homeostasis and disease. Recently, it has become evident that most adult tissue macrophages originate during embryonic development and not from circulating monocytes. Each ti...
+Result 3 [scifact] (ID: scifact_12827098): Tissue-resident macrophages self-maintain locally throughout adult life with minimal contribution from circulating monocytes.
+  Tissue-resident macrophages self-maintain locally throughout adult life with minimal contribution from circulating monocytes. Despite accumulating evidence suggesting local self-maintenance of tissue macrophages in the steady state, the dogma remains that tissue macrophages derive from monocytes. Us...
+

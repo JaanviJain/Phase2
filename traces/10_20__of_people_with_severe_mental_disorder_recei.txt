@@ -1,0 +1,32 @@
+Claim: 10-20% of people with severe mental disorder receive no treatment in low and middle income countries.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: To evaluate the claim, I first need to understand if there are any specific studies or data available that discuss treatment rates for severe mental disorders in low and middle-income countries (LMICs). If no such data exists, I will then seek general background information.
+Action: search_pubmed("treatment rates severe mental disorder low and middle income countries")
+
+Observation: Result 1 [scifact] (ID: scifact_73473433): Mental health difficulties across childhood and mental health service use: findings from a longitudinal population-based study.
+  Mental health difficulties across childhood and mental health service use: findings from a longitudinal population-based study. BACKGROUND Over the past 20 years the prevalence of child and adolescent mental disorders in high-income countries has not changed despite increased investment in mental he...
+Result 2 [scifact] (ID: scifact_38180456): Short-term medical service trips: a systematic review of the evidence.
+  Short-term medical service trips: a systematic review of the evidence. Short-term medical service trips (MSTs) aim to address unmet health care needs of low- and middle-income countries. The lack of critically reviewed empirical evidence of activities and outcomes is a concern. Developing evidence-b...
+Result 3 [scifact] (ID: scifact_6490571): Prevalence, severity, and unmet need for treatment of mental disorders in the World Health Organization World Mental Health Surveys.
+  Prevalence, severity, and unmet need for treatment of mental disorders in the World Health Organization World Mental Health Surveys. CONTEXT Little is known about the extent or severity of untreated mental disorders, especially in less-developed countries.   
+ OBJECTIVE To estimate prevalence, sever...
+
+Thought: The first PubMed search returned relevant results, but none directly address the specific claim about treatment rates for severe mental disorders in LMICs. I need to refine my query to better target this specific information.
+Action: search_pubmed("treatment rates severe mental disorder unmet need low and middle income countries")
+
+Observation: Result 1 [scifact] (ID: scifact_73473433): Mental health difficulties across childhood and mental health service use: findings from a longitudinal population-based study.
+  Mental health difficulties across childhood and mental health service use: findings from a longitudinal population-based study. BACKGROUND Over the past 20 years the prevalence of child and adolescent mental disorders in high-income countries has not changed despite increased investment in mental he...
+Result 2 [scifact] (ID: scifact_38180456): Short-term medical service trips: a systematic review of the evidence.
+  Short-term medical service trips: a systematic review of the evidence. Short-term medical service trips (MSTs) aim to address unmet health care needs of low- and middle-income countries. The lack of critically reviewed empirical evidence of activities and outcomes is a concern. Developing evidence-b...
+Result 3 [scifact] (ID: scifact_18268012): Long-term financing needs for HIV control in sub-Saharan Africa in 2015-2050: a modelling study.
+  Long-term financing needs for HIV control in sub-Saharan Africa in 2015-2050: a modelling study. OBJECTIVES To estimate the present value of current and future funding needed for HIV treatment and prevention in 9 sub-Saharan African (SSA) countries that account for 70% of HIV burden in Africa under ...
+
+Thought: The second PubMed search still did not yield results directly addressing the specific claim about treatment rates for severe mental disorders in LMICs. I will now try a general background search to gather more context.
+Action: search_wikipedia("treatment rates severe mental disorder low and middle income countries")
+
+Observation: No results found.
+

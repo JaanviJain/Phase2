@@ -1,0 +1,31 @@
+Claim: CENP-B inhibits heterochromatin formation
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to first gather general background information on CENP-B and heterochromatin formation before we can evaluate the claim.
+Action: search_wikipedia("CENP-B heterochromatin")
+
+Observation: No results found.
+
+Thought: Since there were no results from the Wikipedia search, it might be helpful to try searching PubMed directly with a more specific query about CENP-B and its relation to heterochromatin formation.
+Action: search_pubmed("CENP-B inhibits heterochromatin formation")
+
+Observation: Result 1 [scifact] (ID: scifact_2613813): Regulation of heterochromatic silencing and histone H3 lysine-9 methylation by RNAi.
+  Regulation of heterochromatic silencing and histone H3 lysine-9 methylation by RNAi. Eukaryotic heterochromatin is characterized by a high density of repeats and transposons, as well as by modified histones, and influences both gene expression and chromosome segregation. In the fission yeast Schizos...
+Result 2 [scifact] (ID: scifact_13906892): DNA damage and Repair Modify DNA methylation and Chromatin Domain of the Targeted Locus: Mechanism of allele methylation polymorphism
+  DNA damage and Repair Modify DNA methylation and Chromatin Domain of the Targeted Locus: Mechanism of allele methylation polymorphism We characterize the changes in chromatin structure, DNA methylation and transcription during and after homologous DNA repair (HR). We find that HR modifies the DNA me...
+Result 3 [scifact] (ID: scifact_11844791): Conserved Histone Variant H2A.Z Protects Euchromatin from the Ectopic Spread of Silent Heterochromatin
+  Conserved Histone Variant H2A.Z Protects Euchromatin from the Ectopic Spread of Silent Heterochromatin Boundary elements hinder the spread of heterochromatin, yet these sites do not fully account for the preservation of adjacent euchromatin. Histone variant H2A.Z (Htz1 in yeast) replaces conventiona...
+
+Thought: The PubMed search results provide some information related to CENP-B and heterochromatin, but none directly support or refute the claim that CENP-B inhibits heterochromatin formation. We need more specific evidence regarding this relationship.
+Action: search_pubmed("CENP-B role in heterochromatin formation")
+
+Observation: Result 1 [scifact] (ID: scifact_2613813): Regulation of heterochromatic silencing and histone H3 lysine-9 methylation by RNAi.
+  Regulation of heterochromatic silencing and histone H3 lysine-9 methylation by RNAi. Eukaryotic heterochromatin is characterized by a high density of repeats and transposons, as well as by modified histones, and influences both gene expression and chromosome segregation. In the fission yeast Schizos...
+Result 2 [scifact] (ID: scifact_15960670): CENP-B Controls Centromere Formation Depending on the Chromatin Context
+  CENP-B Controls Centromere Formation Depending on the Chromatin Context The centromere is a chromatin region that serves as the spindle attachment point and directs accurate inheritance of eukaryotic chromosomes during cell divisions. However, the mechanism by which the centromere assembles and stab...
+Result 3 [scifact] (ID: scifact_2817000): Histone Variant H2A.Z Marks the 5′ Ends of Both Active and Inactive Genes in Euchromatin
+  Histone Variant H2A.Z Marks the 5′ Ends of Both Active and Inactive Genes in Euchromatin In S. cerevisiae, histone variant H2A.Z is deposited in euchromatin at the flanks of silent heterochromatin to prevent its ectopic spread. We show that H2A.Z nucleosomes are found at promoter regions of nearly a...
+

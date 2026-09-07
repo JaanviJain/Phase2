@@ -1,0 +1,36 @@
+Claim: CD44v6 is a marker of constitutive and reprogrammed cancer stem cells driving cancer metastasis.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: I need to gather initial evidence regarding the claim that CD44v6 is a marker of constitutive and reprogrammed cancer stem cells driving cancer metastasis. Starting with PubMed will provide the most relevant scientific research on this topic.
+Action: search_pubmed("CD44v6 cancer stem cells metastasis")
+
+Observation: Result 1 [scifact] (ID: scifact_9558539): CD44v6 is a marker of constitutive and reprogrammed cancer stem cells driving colon cancer metastasis.
+  CD44v6 is a marker of constitutive and reprogrammed cancer stem cells driving colon cancer metastasis. Cancer stem cells drive tumor formation and metastasis, but how they acquire metastatic traits is not well understood. Here, we show that all colorectal cancer stem cells (CR-CSCs) express CD44v6, ...
+Result 2 [scifact] (ID: scifact_87430549): Stem Cells,Cancer and Cancer Stem Cells
+  Stem Cells,Cancer and Cancer Stem Cells Stem cells are defined as cells able to both extensively self-renew and differentiate into progenitors. Research data show that more resistant stem cells than common cancer cells exist in cancer patients. To identify unrecognized differences between cancer ste...
+Result 3 [scifact] (ID: scifact_25950264): A three-dimensional cell biology model of human hepatocellular carcinoma in vitro
+  A three-dimensional cell biology model of human hepatocellular carcinoma in vitro We established an in vitro 3-D model of metastatic hepatocellular carcinoma (HCC) by culturing MHCC97H cells on molecular scaffolds within a rotating wall vessel bioreactor. Morphological and biochemical analyses revea...
+
+Thought: The first PubMed search provided some relevant evidence that CD44v6 is associated with cancer stem cells and metastasis, particularly in colon cancer. However, the results are specific to colorectal cancer and do not provide a comprehensive overview of its role across different types of cancers. To better understand if this claim holds true for other cancer types as well, I will refine my query to include various cancer types.
+Action: search_pubmed("CD44v6 cancer stem cells metastasis multiple cancers")
+
+Observation: Result 1 [scifact] (ID: scifact_87430549): Stem Cells,Cancer and Cancer Stem Cells
+  Stem Cells,Cancer and Cancer Stem Cells Stem cells are defined as cells able to both extensively self-renew and differentiate into progenitors. Research data show that more resistant stem cells than common cancer cells exist in cancer patients. To identify unrecognized differences between cancer ste...
+Result 2 [scifact] (ID: scifact_9558539): CD44v6 is a marker of constitutive and reprogrammed cancer stem cells driving colon cancer metastasis.
+  CD44v6 is a marker of constitutive and reprogrammed cancer stem cells driving colon cancer metastasis. Cancer stem cells drive tumor formation and metastasis, but how they acquire metastatic traits is not well understood. Here, we show that all colorectal cancer stem cells (CR-CSCs) express CD44v6, ...
+Result 3 [scifact] (ID: scifact_3684342): LIN28B enhanced tumorigenesis in an autochthonous KRASG12V-driven lung carcinoma mouse model
+  LIN28B enhanced tumorigenesis in an autochthonous KRASG12V-driven lung carcinoma mouse model LIN28B is a RNA-binding protein regulating predominantly let-7 microRNAs with essential functions in inflammation, wound healing, embryonic stem cells, and cancer. LIN28B expression is associated with tumor ...
+
+Thought: The PubMed search results indicate that CD44v6 is indeed associated with cancer stem cells and metastasis, specifically in colorectal cancer. However, the evidence is limited to this type of cancer. To further evaluate the claim for a broader range of cancers, I will conduct another search focusing on the role of CD44v6 in various types of cancer.
+Action: search_pubmed("CD44v6 cancer stem cells metastasis various cancers")
+
+Observation: Result 1 [scifact] (ID: scifact_87430549): Stem Cells,Cancer and Cancer Stem Cells
+  Stem Cells,Cancer and Cancer Stem Cells Stem cells are defined as cells able to both extensively self-renew and differentiate into progenitors. Research data show that more resistant stem cells than common cancer cells exist in cancer patients. To identify unrecognized differences between cancer ste...
+Result 2 [scifact] (ID: scifact_9558539): CD44v6 is a marker of constitutive and reprogrammed cancer stem cells driving colon cancer metastasis.
+  CD44v6 is a marker of constitutive and reprogrammed cancer stem cells driving colon cancer metastasis. Cancer stem cells drive tumor formation and metastasis, but how they acquire metastatic traits is not well understood. Here, we show that all colorectal cancer stem cells (CR-CSCs) express CD44v6, ...
+Result 3 [scifact] (ID: scifact_25950264): A three-dimensional cell biology model of human hepatocellular carcinoma in vitro
+  A three-dimensional cell biology model of human hepatocellular carcinoma in vitro We established an in vitro 3-D model of metastatic hepatocellular carcinoma (HCC) by culturing MHCC97H cells on molecular scaffolds within a rotating wall vessel bioreactor. Morphological and biochemical analyses revea...
+

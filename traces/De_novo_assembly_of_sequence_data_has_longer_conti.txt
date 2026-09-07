@@ -1,0 +1,26 @@
+Claim: De novo assembly of sequence data has longer contigs than unassembled sequence data.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 3
+======================================================================
+
+Thought: The claim suggests a comparison between de novo assembly of sequence data and unassembled sequence data regarding contig length. To verify this, I need to understand the definitions and typical outcomes of both processes. A PubMed search might provide specific research findings, but as a starting point, Wikipedia can offer general information about these terms.
+Action: search_wikipedia("de novo assembly")
+
+Observation: No results found.
+
+Thought: Since the initial attempt to gather background knowledge through Wikipedia did not yield any results, I will try a more specific query related to de novo assembly and its outcomes compared to unassembled sequence data.
+Action: search_wikipedia("de novo assembly vs unassembled sequence data")
+
+Observation: No results found.
+
+Thought: Given that the initial attempts to gather information through Wikipedia did not yield any useful results, I will now try a PubMed search with a more specific query. This might provide clinical or research evidence comparing de novo assembly of sequence data to unassembled sequence data regarding contig length.
+Action: search_pubmed("de novo assembly vs unassembled sequence data contigs")
+
+Observation: Result 1 [scifact] (ID: scifact_32770503): Full-length transcriptome assembly from RNA-Seq data without a reference genome.
+  Full-length transcriptome assembly from RNA-Seq data without a reference genome. Massively parallel sequencing of cDNA has enabled deep and efficient probing of transcriptomes. Current approaches for transcript reconstruction from such data often rely on aligning reads to a reference genome, and are...
+Result 2 [scifact] (ID: scifact_11244195): STAR: ultrafast universal RNA-seq aligner.
+  STAR: ultrafast universal RNA-seq aligner. MOTIVATION Accurate alignment of high-throughput RNA-seq data is a challenging and yet unsolved problem because of the non-contiguous transcript structure, relatively short read lengths and constantly increasing throughput of the sequencing technologies. Cu...
+Result 3 [scifact] (ID: scifact_1544804): Improved variant discovery through local re-alignment of short-read next-generation sequencing data using SRMA
+  Improved variant discovery through local re-alignment of short-read next-generation sequencing data using SRMA A primary component of next-generation sequencing analysis is to align short reads to a reference genome, with each read aligned independently. However, reads that observe the same non-refe...
+

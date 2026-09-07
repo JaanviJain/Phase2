@@ -1,0 +1,36 @@
+Claim: 25% of patients with melanoma and an objective response to PD-1 blockade will experience a progression in their melanoma.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: We need to gather evidence regarding the claim that 25% of patients with melanoma who have an objective response to PD-1 blockade will experience disease progression. This involves understanding both the prevalence of such cases and their specific outcomes post-PD-1 treatment. A PubMed search would be most appropriate for finding clinical trials or studies relevant to this claim.
+Action: search_pubmed("25% patients melanoma PD-1 progression")
+
+Observation: Result 1 [scifact] (ID: scifact_21033230): Molecular profiling and predictive value of circulating tumor cells in patients with metastatic breast cancer: an option for monitoring response to breast cancer related therapies
+  Molecular profiling and predictive value of circulating tumor cells in patients with metastatic breast cancer: an option for monitoring response to breast cancer related therapies Purpose We analyzed circulating tumor cells (CTC) in blood of metastatic breast cancer patients (n = 42) and determined ...
+Result 2 [scifact] (ID: scifact_87430549): Stem Cells,Cancer and Cancer Stem Cells
+  Stem Cells,Cancer and Cancer Stem Cells Stem cells are defined as cells able to both extensively self-renew and differentiate into progenitors. Research data show that more resistant stem cells than common cancer cells exist in cancer patients. To identify unrecognized differences between cancer ste...
+Result 3 [scifact] (ID: scifact_1389264): Combination inhibition of PI3K and mTORC1 yields durable remissions in orthotopic patient-derived xenografts of HER2-positive breast cancer brain metastases
+  Combination inhibition of PI3K and mTORC1 yields durable remissions in orthotopic patient-derived xenografts of HER2-positive breast cancer brain metastases Brain metastases represent the greatest clinical challenge in treating HER2-positive breast cancer. We report the development of orthotopic pat...
+
+Thought: The search results do not directly address the claim about melanoma patients with an objective response to PD-1 blockade experiencing progression. I need more specific studies related to this particular scenario. Let me refine my query to focus on melanoma and PD-1 therapy outcomes.
+Action: search_pubmed("25% melanoma PD-1 progression")
+
+Observation: Result 1 [scifact] (ID: scifact_26887439): Survivin depletion preferentially reduces the survival of activated K-Ras-transformed cells.
+  Survivin depletion preferentially reduces the survival of activated K-Ras-transformed cells. To identify cancer-specific targets, we have conducted a synthetic lethal screen using a small interfering RNA (siRNA) library targeting approximately 4,000 individual genes for enhanced killing in the DLD-1...
+Result 2 [scifact] (ID: scifact_1389264): Combination inhibition of PI3K and mTORC1 yields durable remissions in orthotopic patient-derived xenografts of HER2-positive breast cancer brain metastases
+  Combination inhibition of PI3K and mTORC1 yields durable remissions in orthotopic patient-derived xenografts of HER2-positive breast cancer brain metastases Brain metastases represent the greatest clinical challenge in treating HER2-positive breast cancer. We report the development of orthotopic pat...
+Result 3 [scifact] (ID: scifact_25950264): A three-dimensional cell biology model of human hepatocellular carcinoma in vitro
+  A three-dimensional cell biology model of human hepatocellular carcinoma in vitro We established an in vitro 3-D model of metastatic hepatocellular carcinoma (HCC) by culturing MHCC97H cells on molecular scaffolds within a rotating wall vessel bioreactor. Morphological and biochemical analyses revea...
+
+Thought: The search results are still not providing the specific information we need regarding melanoma patients with an objective response to PD-1 therapy experiencing progression. I will refine my query further to focus on the exact outcome percentage mentioned in the claim.
+Action: search_pubmed("25% melanoma PD-1 treatment progression")
+
+Observation: Result 1 [scifact] (ID: scifact_1389264): Combination inhibition of PI3K and mTORC1 yields durable remissions in orthotopic patient-derived xenografts of HER2-positive breast cancer brain metastases
+  Combination inhibition of PI3K and mTORC1 yields durable remissions in orthotopic patient-derived xenografts of HER2-positive breast cancer brain metastases Brain metastases represent the greatest clinical challenge in treating HER2-positive breast cancer. We report the development of orthotopic pat...
+Result 2 [scifact] (ID: scifact_26887439): Survivin depletion preferentially reduces the survival of activated K-Ras-transformed cells.
+  Survivin depletion preferentially reduces the survival of activated K-Ras-transformed cells. To identify cancer-specific targets, we have conducted a synthetic lethal screen using a small interfering RNA (siRNA) library targeting approximately 4,000 individual genes for enhanced killing in the DLD-1...
+Result 3 [scifact] (ID: scifact_9955779): Epigenetic Therapy Ties MYC Depletion to Reversing Immune Evasion and Treating Lung Cancer
+  Epigenetic Therapy Ties MYC Depletion to Reversing Immune Evasion and Treating Lung Cancer Combining DNA-demethylating agents (DNA methyltransferase inhibitors [DNMTis]) with histone deacetylase inhibitors (HDACis) holds promise for enhancing cancer immune therapy. Herein, pharmacologic and isoform ...
+

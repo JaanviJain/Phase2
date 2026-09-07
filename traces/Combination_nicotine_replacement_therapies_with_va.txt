@@ -1,0 +1,36 @@
+Claim: Combination nicotine replacement therapies with varenicline or bupropion are not associated with significantly higher long-term abstinence rates at 52 weeks than varenicline monotherapy.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: To evaluate the claim, I first need to understand if there are any studies comparing combination nicotine replacement therapies (NRT) with varenicline or bupropion to varenicline monotherapy in terms of long-term abstinence rates.
+Action: search_pubmed("combination NRT varenicline bupropion vs varenicline monotherapy 52 weeks")
+
+Observation: Result 1 [scifact] (ID: scifact_28821565): Concentrations of tenofovir and emtricitabine in saliva: implications for preexposure prophylaxis of oral HIV acquisition.
+  Concentrations of tenofovir and emtricitabine in saliva: implications for preexposure prophylaxis of oral HIV acquisition. To prevent acquisition of HIV through oral sex, drugs used for preexposure prophylaxis (Prep) need to diffuse in saliva. We measured tenofovir (TFV) and emtricitabine (FTC) conc...
+Result 2 [scifact] (ID: scifact_21382907): Reduced Cytokine Release in Ex Vivo Response to Cilengitide and Cetuximab Is a Marker for Improved Survival of Head and Neck Cancer Patients
+  Reduced Cytokine Release in Ex Vivo Response to Cilengitide and Cetuximab Is a Marker for Improved Survival of Head and Neck Cancer Patients Targeting of αVβ3 and αVβ5 integrins by cilengitide may reduce growth of solid tumors including head and neck squamous cell carcinoma (HNSCC). Preclinical inve...
+Result 3 [scifact] (ID: scifact_32450297): Evidence for energy-dependent accumulation of paraquat into rat lung
+  Evidence for energy-dependent accumulation of paraquat into rat lung THE herbicide paraquat (N,N′-dimethyl 4,4′-bipyridilium) can produce widespread oedema and fibrosis in the human lung after accidental ingestion1–3. In those cases where death occurs after several weeks, there are no apparent pulmo...
+
+Thought: The results from PubMed do not seem relevant to our claim about combination NRT therapies compared to varenicline monotherapy for smoking cessation. I need more specific studies comparing these treatments.
+Action: search_pubmed("combination NRT varenicline bupropion vs varenicline monotherapy abstinence rates 52 weeks")
+
+Observation: Result 1 [scifact] (ID: scifact_5551138): Nortriptyline for smoking cessation: a review.
+  Nortriptyline for smoking cessation: a review. This article reviews the efficacy of nortriptyline for smoking cessation based on a meta-analysis of the Cochrane Library. Six placebo-controlled trials have shown nortriptyline (75-100 mg) doubles quit rates (OR = 2.1). Between 4% and 12% of smokers dr...
+Result 2 [scifact] (ID: scifact_28821565): Concentrations of tenofovir and emtricitabine in saliva: implications for preexposure prophylaxis of oral HIV acquisition.
+  Concentrations of tenofovir and emtricitabine in saliva: implications for preexposure prophylaxis of oral HIV acquisition. To prevent acquisition of HIV through oral sex, drugs used for preexposure prophylaxis (Prep) need to diffuse in saliva. We measured tenofovir (TFV) and emtricitabine (FTC) conc...
+Result 3 [scifact] (ID: scifact_21382907): Reduced Cytokine Release in Ex Vivo Response to Cilengitide and Cetuximab Is a Marker for Improved Survival of Head and Neck Cancer Patients
+  Reduced Cytokine Release in Ex Vivo Response to Cilengitide and Cetuximab Is a Marker for Improved Survival of Head and Neck Cancer Patients Targeting of αVβ3 and αVβ5 integrins by cilengitide may reduce growth of solid tumors including head and neck squamous cell carcinoma (HNSCC). Preclinical inve...
+
+Thought: The results still do not provide the specific comparison needed for combination NRT therapies with varenicline or bupropion versus varenicline monotherapy in terms of long-term abstinence rates at 52 weeks. I need to refine my query to focus more precisely on this aspect.
+Action: search_pubmed("combination NRT varenicline bupropion vs varenicline monotherapy smoking cessation abstinence rates 52 weeks")
+
+Observation: Result 1 [scifact] (ID: scifact_5551138): Nortriptyline for smoking cessation: a review.
+  Nortriptyline for smoking cessation: a review. This article reviews the efficacy of nortriptyline for smoking cessation based on a meta-analysis of the Cochrane Library. Six placebo-controlled trials have shown nortriptyline (75-100 mg) doubles quit rates (OR = 2.1). Between 4% and 12% of smokers dr...
+Result 2 [scifact] (ID: scifact_21382907): Reduced Cytokine Release in Ex Vivo Response to Cilengitide and Cetuximab Is a Marker for Improved Survival of Head and Neck Cancer Patients
+  Reduced Cytokine Release in Ex Vivo Response to Cilengitide and Cetuximab Is a Marker for Improved Survival of Head and Neck Cancer Patients Targeting of αVβ3 and αVβ5 integrins by cilengitide may reduce growth of solid tumors including head and neck squamous cell carcinoma (HNSCC). Preclinical inve...
+Result 3 [scifact] (ID: scifact_5114940): Pharmacological interventions for smoking cessation: an overview and network meta-analysis.
+  Pharmacological interventions for smoking cessation: an overview and network meta-analysis. BACKGROUND Smoking is the leading preventable cause of illness and premature death worldwide. Some medications have been proven to help people to quit, with three licensed for this purpose in Europe and the U...
+

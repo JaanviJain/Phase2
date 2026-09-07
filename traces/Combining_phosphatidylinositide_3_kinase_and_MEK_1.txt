@@ -1,0 +1,36 @@
+Claim: Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is ineffective at treating KRAS mutant tumors.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: We currently have no information on this claim, so we should start by searching PubMed for any relevant clinical or research evidence to evaluate the effectiveness of combining phosphatidylinositide 3-kinase (PI3K) and MEK 1/2 inhibitors in treating KRAS mutant tumors.
+Action: search_pubmed("combining PI3K and MEK 1/2 inhibitors in KRAS mutant tumors")
+
+Observation: Result 1 [scifact] (ID: scifact_4920376): Long-Term ERK Inhibition in KRAS-Mutant Pancreatic Cancer Is Associated with MYC Degradation and Senescence-like Growth Suppression.
+  Long-Term ERK Inhibition in KRAS-Mutant Pancreatic Cancer Is Associated with MYC Degradation and Senescence-like Growth Suppression. Induction of compensatory mechanisms and ERK reactivation has limited the effectiveness of Raf and MEK inhibitors in RAS-mutant cancers. We determined that direct phar...
+Result 2 [scifact] (ID: scifact_29806339): Targeting mitotic exit leads to tumor regression in vivo: Modulation by Cdk1, Mastl, and the PP2A/B55α,δ phosphatase.
+  Targeting mitotic exit leads to tumor regression in vivo: Modulation by Cdk1, Mastl, and the PP2A/B55α,δ phosphatase. Targeting mitotic exit has been recently proposed as a relevant therapeutic approach against cancer. By using genetically engineered mice, we show that the APC/C cofactor Cdc20 is es...
+Result 3 [scifact] (ID: scifact_29321530): PI3K and cancer: lessons, challenges and opportunities
+  PI3K and cancer: lessons, challenges and opportunities The central role of phosphoinositide 3-kinase (PI3K) activation in tumour cell biology has prompted a sizeable effort to target PI3K and/or downstream kinases such as AKT and mammalian target of rapamycin (mTOR) in cancer. However, emerging clin...
+
+Thought: The first search returned some relevant information about combining PI3K and MEK 1/2 inhibitors, but the results are not directly addressing the claim about KRAS mutant tumors. We need to refine our query to specifically focus on KRAS mutant tumors.
+Action: search_pubmed("combining PI3K and MEK 1/2 inhibitors in KRAS mutant tumors")
+
+Observation: Result 1 [scifact] (ID: scifact_4920376): Long-Term ERK Inhibition in KRAS-Mutant Pancreatic Cancer Is Associated with MYC Degradation and Senescence-like Growth Suppression.
+  Long-Term ERK Inhibition in KRAS-Mutant Pancreatic Cancer Is Associated with MYC Degradation and Senescence-like Growth Suppression. Induction of compensatory mechanisms and ERK reactivation has limited the effectiveness of Raf and MEK inhibitors in RAS-mutant cancers. We determined that direct phar...
+Result 2 [scifact] (ID: scifact_29806339): Targeting mitotic exit leads to tumor regression in vivo: Modulation by Cdk1, Mastl, and the PP2A/B55α,δ phosphatase.
+  Targeting mitotic exit leads to tumor regression in vivo: Modulation by Cdk1, Mastl, and the PP2A/B55α,δ phosphatase. Targeting mitotic exit has been recently proposed as a relevant therapeutic approach against cancer. By using genetically engineered mice, we show that the APC/C cofactor Cdc20 is es...
+Result 3 [scifact] (ID: scifact_29321530): PI3K and cancer: lessons, challenges and opportunities
+  PI3K and cancer: lessons, challenges and opportunities The central role of phosphoinositide 3-kinase (PI3K) activation in tumour cell biology has prompted a sizeable effort to target PI3K and/or downstream kinases such as AKT and mammalian target of rapamycin (mTOR) in cancer. However, emerging clin...
+
+Thought: The search results still do not directly address the claim about combining PI3K and MEK 1/2 inhibitors specifically for KRAS mutant tumors. We need to refine our query further to ensure we capture relevant studies.
+Action: search_pubmed("clinical trials combining PI3K and MEK 1/2 inhibitors in KRAS mutant tumors")
+
+Observation: Result 1 [scifact] (ID: scifact_4920376): Long-Term ERK Inhibition in KRAS-Mutant Pancreatic Cancer Is Associated with MYC Degradation and Senescence-like Growth Suppression.
+  Long-Term ERK Inhibition in KRAS-Mutant Pancreatic Cancer Is Associated with MYC Degradation and Senescence-like Growth Suppression. Induction of compensatory mechanisms and ERK reactivation has limited the effectiveness of Raf and MEK inhibitors in RAS-mutant cancers. We determined that direct phar...
+Result 2 [scifact] (ID: scifact_29321530): PI3K and cancer: lessons, challenges and opportunities
+  PI3K and cancer: lessons, challenges and opportunities The central role of phosphoinositide 3-kinase (PI3K) activation in tumour cell biology has prompted a sizeable effort to target PI3K and/or downstream kinases such as AKT and mammalian target of rapamycin (mTOR) in cancer. However, emerging clin...
+Result 3 [scifact] (ID: scifact_1389264): Combination inhibition of PI3K and mTORC1 yields durable remissions in orthotopic patient-derived xenografts of HER2-positive breast cancer brain metastases
+  Combination inhibition of PI3K and mTORC1 yields durable remissions in orthotopic patient-derived xenografts of HER2-positive breast cancer brain metastases Brain metastases represent the greatest clinical challenge in treating HER2-positive breast cancer. We report the development of orthotopic pat...
+

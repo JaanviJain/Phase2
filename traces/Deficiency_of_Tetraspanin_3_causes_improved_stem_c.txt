@@ -1,0 +1,36 @@
+Claim: Deficiency of Tetraspanin-3 causes improved stem cell-renewal and slows disease propagation.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: I need to gather initial information on Tetraspanin-3 to understand its role in stem cell-renewal and disease propagation.
+Action: search_pubmed("Tetraspanin-3 and stem cells")
+
+Observation: Result 1 [scifact] (ID: scifact_11710511): Adherens junctions in Drosophila retinal morphogenesis.
+  Adherens junctions in Drosophila retinal morphogenesis. Adherens junctions and their core molecular components, classic cadherins, make major contributions to animal morphogenesis. Although the significance of cadherins in development is generally accepted, the mechanisms regulating adherens junctio...
+Result 2 [scifact] (ID: scifact_11661377): SNAREs — engines for membrane fusion
+  SNAREs — engines for membrane fusion Since the discovery of SNARE proteins in the late 1980s, SNAREs have been recognized as key components of protein complexes that drive membrane fusion. Despite considerable sequence divergence among SNARE proteins, their mechanism seems to be conserved and is ada...
+Result 3 [scifact] (ID: scifact_20524091): Chaperoning stem cells: a role for heat shock proteins in the modulation of stem cell self-renewal and differentiation?
+  Chaperoning stem cells: a role for heat shock proteins in the modulation of stem cell self-renewal and differentiation? Self-renewal and differentiation of stem cells are tightly regulated processes subject to intrinsic and extrinsic signals. Molecular chaperones and co-chaperones, especially heat s...
+
+Thought: The initial search did not yield any direct results related to Tetraspanin-3 and stem cell-renewal or disease propagation. I need to refine my query to focus more specifically on the claim.
+Action: search_pubmed("Tetraspanin-3 deficiency stem cells") OR search_wikipedia("Tetraspanin-3")
+
+Observation: Result 1 [scifact] (ID: scifact_12887068): Use of human embryonic stem cells to model pediatric gliomas with H3.3K27M histone mutation
+  Use of human embryonic stem cells to model pediatric gliomas with H3.3K27M histone mutation Over 70% of diffuse intrinsic pediatric gliomas, an aggressive brainstem tumor, harbor heterozygous mutations that create a K27M amino acid substitution (methionine replaces lysine 27) in the tail of histone ...
+Result 2 [scifact] (ID: scifact_10641715): Modelling and rescuing neurodevelopmental defect of Down syndrome using induced pluripotent stem cells from monozygotic twins discordant for trisomy 21
+  Modelling and rescuing neurodevelopmental defect of Down syndrome using induced pluripotent stem cells from monozygotic twins discordant for trisomy 21 Down syndrome (trisomy 21) is the most common viable chromosomal disorder with intellectual impairment and several other developmental abnormalities...
+Result 3 [scifact] (ID: scifact_18399038): Establishment of human iPSC-based models for the study and targeting of glioma initiating cells
+  Establishment of human iPSC-based models for the study and targeting of glioma initiating cells Glioma tumour-initiating cells (GTICs) can originate upon the transformation of neural progenitor cells (NPCs). Studies on GTICs have focused on primary tumours from which GTICs could be isolated and the ...
+
+Thought: The initial refined search still did not yield any direct results related to Tetraspanin-3 deficiency, stem cell-renewal, or disease propagation. I need to focus more specifically on the relationship between Tetraspanin-3 and these aspects.
+Action: search_pubmed("Tetraspanin-3 deficiency stem cell renewal") OR search_wikipedia("Tetraspanin-3 and diseases")
+
+Observation: Result 1 [scifact] (ID: scifact_12887068): Use of human embryonic stem cells to model pediatric gliomas with H3.3K27M histone mutation
+  Use of human embryonic stem cells to model pediatric gliomas with H3.3K27M histone mutation Over 70% of diffuse intrinsic pediatric gliomas, an aggressive brainstem tumor, harbor heterozygous mutations that create a K27M amino acid substitution (methionine replaces lysine 27) in the tail of histone ...
+Result 2 [scifact] (ID: scifact_1447990): FOXO4 is necessary for neural differentiation of human embryonic stem cells.
+  FOXO4 is necessary for neural differentiation of human embryonic stem cells. Proteostasis is critical for maintaining cell function and proteome stability may play an important role in human embryonic stem cell (hESC) immortality. Notably, hESC populations exhibit a high assembly of active proteasom...
+Result 3 [scifact] (ID: scifact_6913227): MicroRNA-Containing T-Regulatory-Cell-Derived Exosomes Suppress Pathogenic T Helper 1 Cells
+  MicroRNA-Containing T-Regulatory-Cell-Derived Exosomes Suppress Pathogenic T Helper 1 Cells Foxp3(+) T regulatory (Treg) cells prevent inflammatory disease but the mechanistic basis of suppression is not understood completely. Gene silencing by RNA interference can act in a cell-autonomous and non-c...
+

@@ -1,0 +1,36 @@
+Claim: Cytosolic proteins fail to bind to iron-responsive elements on mRNAs coding for TFRC1.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: We currently have no information on this claim, so we should start by searching PubMed for any relevant research or studies that could provide evidence regarding the binding of cytosolic proteins to iron-responsive elements on mRNAs coding for TFRC1.
+Action: search_pubmed("cytosolic proteins bind iron-responsive elements TFRC1")
+
+Observation: Result 1 [scifact] (ID: scifact_5094468): Mitochondria as sensors and regulators of calcium signalling
+  Mitochondria as sensors and regulators of calcium signalling During the past two decades calcium (Ca2+) accumulation in energized mitochondria has emerged as a biological process of utmost physiological relevance. Mitochondrial Ca2+ uptake was shown to control intracellular Ca2+ signalling, cell met...
+Result 2 [scifact] (ID: scifact_32324430): Competition between target sites of regulators shapes post-transcriptional gene regulation
+  Competition between target sites of regulators shapes post-transcriptional gene regulation Post-transcriptional gene regulation (PTGR) of mRNA turnover, localization and translation is mediated by microRNAs (miRNAs) and RNA-binding proteins (RBPs). These regulators exert their effects by binding to ...
+Result 3 [scifact] (ID: scifact_6532806): An integrated database of genes responsive to the Myc oncogenic transcription factor: identification of direct genomic targets
+  An integrated database of genes responsive to the Myc oncogenic transcription factor: identification of direct genomic targets We report a database of genes responsive to the Myc oncogenic transcription factor. The database Myc Target Gene prioritizes candidate target genes according to experimental...
+
+Thought: The PubMed search results do not directly address cytosolic proteins binding to iron-responsive elements on mRNAs coding for TFRC1. We need more specific evidence related to the claim. Let's try a more targeted query in PubMed.
+Action: search_pubmed("cytosolic proteins bind iron-responsive elements TFRC1 mRNA")
+
+Observation: Result 1 [scifact] (ID: scifact_935538): The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression.
+  The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression. RNA-binding proteins are at the heart of posttranscriptional gene regulation, coordinating the processing, storage, and handling of cellular RNAs. We show here...
+Result 2 [scifact] (ID: scifact_32324430): Competition between target sites of regulators shapes post-transcriptional gene regulation
+  Competition between target sites of regulators shapes post-transcriptional gene regulation Post-transcriptional gene regulation (PTGR) of mRNA turnover, localization and translation is mediated by microRNAs (miRNAs) and RNA-binding proteins (RBPs). These regulators exert their effects by binding to ...
+Result 3 [scifact] (ID: scifact_19485243): Opening of compacted chromatin by early developmental transcription factors HNF3 (FoxA) and GATA-4.
+  Opening of compacted chromatin by early developmental transcription factors HNF3 (FoxA) and GATA-4. The transcription factors HNF3 (FoxA) and GATA-4 are the earliest known to bind the albumin gene enhancer in liver precursor cells in embryos. To understand how they access sites in silent chromatin, ...
+
+Thought: The PubMed search results still do not provide direct evidence related to cytosolic proteins binding to iron-responsive elements on mRNAs coding for TFRC1. We need a more specific query to find relevant studies or research that address this exact claim.
+Action: search_pubmed("cytosolic proteins bind iron responsive elements TFRC1 mRNA")
+
+Observation: Result 1 [scifact] (ID: scifact_32324430): Competition between target sites of regulators shapes post-transcriptional gene regulation
+  Competition between target sites of regulators shapes post-transcriptional gene regulation Post-transcriptional gene regulation (PTGR) of mRNA turnover, localization and translation is mediated by microRNAs (miRNAs) and RNA-binding proteins (RBPs). These regulators exert their effects by binding to ...
+Result 2 [scifact] (ID: scifact_19485243): Opening of compacted chromatin by early developmental transcription factors HNF3 (FoxA) and GATA-4.
+  Opening of compacted chromatin by early developmental transcription factors HNF3 (FoxA) and GATA-4. The transcription factors HNF3 (FoxA) and GATA-4 are the earliest known to bind the albumin gene enhancer in liver precursor cells in embryos. To understand how they access sites in silent chromatin, ...
+Result 3 [scifact] (ID: scifact_935538): The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression.
+  The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression. RNA-binding proteins are at the heart of posttranscriptional gene regulation, coordinating the processing, storage, and handling of cellular RNAs. We show here...
+

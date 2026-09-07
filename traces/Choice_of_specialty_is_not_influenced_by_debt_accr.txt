@@ -1,0 +1,33 @@
+Claim: Choice of specialty is not influenced by debt accrued from medical training.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: To evaluate the claim, I first need to determine if there is any clinical or research evidence that suggests debt accrued during medical training influences the choice of specialty. A PubMed search would be appropriate for this purpose.
+Action: search_pubmed("debt medical school specialty choice")
+
+Observation: Result 1 [scifact] (ID: scifact_56391045): DIASPORA BONDS: TAPPING THE DIASPORA DURING DIFFICULT TIMES
+  DIASPORA BONDS: TAPPING THE DIASPORA DURING DIFFICULT TIMES India and Israel have raised over US$35 billion by tapping into the wealth of their diaspora communities. These diaspora bonds represent a stable and cheap source of external finance, often when countries lost access to international capita...
+Result 2 [scifact] (ID: scifact_38664102): What do medical schools teach about women's health and gender differences?
+  What do medical schools teach about women's health and gender differences? PURPOSE To examine the curricula of U.S. medical schools to assess the inclusion of women's health and gender-specific information and identify institutional characteristics associated with this content.   
+ METHOD Using data...
+Result 3 [scifact] (ID: scifact_40500723): Immigration cohorts and residential overcrowding in southern California
+  Immigration cohorts and residential overcrowding in southern California To what degree do immigrants reduce their high rates of residential overcrowding with increasing length of residence in the United States? This question is addressed through the application of a “double cohort” method that nests...
+
+Thought: The PubMed search results did not provide any direct evidence regarding the influence of debt on specialty choice in medical training. The articles found were unrelated to the topic or not directly relevant. I should try a more specific query on Wikipedia for general background information.
+Action: search_wikipedia("medical school debt and specialty choice")
+
+Observation: No results found.
+
+Thought: Since the PubMed search did not yield any relevant results, and the Wikipedia search also returned no useful information, I need to refine my query to better target the specific claim about medical school debt influencing specialty choices.
+Action: search_pubmed("medical school debt impact on residency choice")
+
+Observation: Result 1 [scifact] (ID: scifact_40500723): Immigration cohorts and residential overcrowding in southern California
+  Immigration cohorts and residential overcrowding in southern California To what degree do immigrants reduce their high rates of residential overcrowding with increasing length of residence in the United States? This question is addressed through the application of a “double cohort” method that nests...
+Result 2 [scifact] (ID: scifact_25886725): Are dual eligibles admitted to poorer quality skilled nursing facilities?
+  Are dual eligibles admitted to poorer quality skilled nursing facilities? BACKGROUND Dual eligibles, persons who qualify for both Medicare and Medicaid coverage, often receive poorer quality care relative to other Medicare beneficiaries.   
+ OBJECTIVES To determine whether dual eligibles are dischar...
+Result 3 [scifact] (ID: scifact_21203899): Managing finances of shipping living donor kidneys for donor exchanges.
+  Managing finances of shipping living donor kidneys for donor exchanges. Kidney donor exchanges enable recipients with immunologically incompatible donors to receive compatible living donor grafts; however, the financial management of these exchanges, especially when an organ is shipped, is complex a...
+

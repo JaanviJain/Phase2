@@ -1,0 +1,31 @@
+Claim: Chronic aerobic exercise alters endothelial function, impairing vasodilating mechanisms mediated by NO.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to first gather some general background on the claim to understand if chronic aerobic exercise indeed alters endothelial function and affects vasodilating mechanisms mediated by NO.
+Action: search_wikipedia("chronic aerobic exercise and endothelial function")
+
+Observation: No results found.
+
+Thought: Since no information was found in Wikipedia, we should try searching PubMed directly for clinical or research evidence related to the claim.
+Action: search_pubmed("chronic aerobic exercise and endothelial function NO")
+
+Observation: Result 1 [scifact] (ID: scifact_2533768): Workshop: endothelial cell dysfunction leading to diabetic nephropathy : focus on nitric oxide.
+  Workshop: endothelial cell dysfunction leading to diabetic nephropathy : focus on nitric oxide. Clinical manifestations of diabetic nephropathy are an expression of diabetic microangiopathy. This review revisits the previously proposed Steno hypothesis and advances our hypothesis that development of...
+Result 2 [scifact] (ID: scifact_70895396): The Endothelium: Modulator of Cardiovascular Function
+  The Endothelium: Modulator of Cardiovascular Function Introduction. Methods To Study Endothelium-Dependent Responses. Endothelium-Derived Relaxing Factor. Physiological Actions. Other Relaxing Substances Released By the Endothelium. Production of Contracting Agents. Local Regulation of Endothelium-D...
+Result 3 [scifact] (ID: scifact_24005548): The HMG-CoA reductase inhibitor simvastatin activates the protein kinase Akt and promotes angiogenesis in normocholesterolemic animals.
+  The HMG-CoA reductase inhibitor simvastatin activates the protein kinase Akt and promotes angiogenesis in normocholesterolemic animals. Recent studies suggest that statins can function to protect the vasculature in a manner that is independent of their lipid-lowering activity. We show here that stat...
+
+Thought: The results provide some information about endothelial function and NO, but none directly address chronic aerobic exercise. We need more specific evidence regarding the impact of chronic aerobic exercise on endothelial function and NO-mediated vasodilation.
+Action: search_pubmed("chronic aerobic exercise chronic effects on endothelial function nitric oxide")
+
+Observation: Result 1 [scifact] (ID: scifact_46743299): Chronic Exercise Increases Both Inducible and Endothelial Nitric Oxide Synthase Gene Expression in Endothelial Cells of Rat Aorta
+  Chronic Exercise Increases Both Inducible and Endothelial Nitric Oxide Synthase Gene Expression in Endothelial Cells of Rat Aorta Chronic exercise upregulates endothelial nitric oxide synthase (eNOS) gene expression. Whether the expression of inducible nitric oxide synthase (iNOS) is affected by exe...
+Result 2 [scifact] (ID: scifact_70895396): The Endothelium: Modulator of Cardiovascular Function
+  The Endothelium: Modulator of Cardiovascular Function Introduction. Methods To Study Endothelium-Dependent Responses. Endothelium-Derived Relaxing Factor. Physiological Actions. Other Relaxing Substances Released By the Endothelium. Production of Contracting Agents. Local Regulation of Endothelium-D...
+Result 3 [scifact] (ID: scifact_2533768): Workshop: endothelial cell dysfunction leading to diabetic nephropathy : focus on nitric oxide.
+  Workshop: endothelial cell dysfunction leading to diabetic nephropathy : focus on nitric oxide. Clinical manifestations of diabetic nephropathy are an expression of diabetic microangiopathy. This review revisits the previously proposed Steno hypothesis and advances our hypothesis that development of...
+

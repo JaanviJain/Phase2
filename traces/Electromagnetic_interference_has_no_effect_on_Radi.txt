@@ -1,0 +1,31 @@
+Claim: Electromagnetic interference has no effect on Radio Frequency Identification (RFID) readability and reading distances.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to gather information on the effects of electromagnetic interference (EMI) on RFID readability and reading distances. PubMed might not have relevant studies, but general background could provide useful insights.
+Action: search_wikipedia("electromagnetic interference RFID")
+
+Observation: No results found.
+
+Thought: Since there were no results from the Wikipedia search, it's possible that the specific claim about RFID is not extensively covered in general articles. Let's try a more targeted PubMed search to find any relevant clinical or research evidence.
+Action: search_pubmed("electromagnetic interference RFID readability")
+
+Observation: Result 1 [scifact] (ID: scifact_94109411): Improved Au/Zn/Au ohmic contacts for p-type InP
+  Improved Au/Zn/Au ohmic contacts for p-type InP In this work, an innovated Si3N4 as an out-diffusion barrier layer to Au/Zn/Au contact system for p-type InP has been proposed. Before the contacts were annealed, Si3N4 layer was deposited on the Au(200Å)/Zn(700Å)/Au(200Å), then the Si3N4 was removed b...
+Result 2 [scifact] (ID: scifact_27709445): RFID system evaluation against radiated transient noise
+  RFID system evaluation against radiated transient noise In this paper a radiofrequency identification system according to standard ISO/IEC 14443 type-B is evaluated in  presence of transient noise. This real time communication system working at 13.56 MHz is interfered in a controlled environment by ...
+Result 3 [scifact] (ID: scifact_121001457): Over 30% efficient InGaP/GaAs tandem solar cells
+  Over 30% efficient InGaP/GaAs tandem solar cells A two-terminal monolithic InGaP/GaAs tandem solar cell with a new efficiency record of 30.28% is realized with a practical large area of 4 cm2 under one-sun air-mass 1.5 global illumination. We report improvements of the tandem cell performance by int...
+
+Thought: The PubMed search returned results, but only one seems relevant to RFID systems and electromagnetic interference (RFID system evaluation against radiated transient noise). This study evaluates an RFID system's response to transient noise, which is a type of electromagnetic interference. We need to focus on this result to gather more specific evidence.
+Action: search_pubmed("electromagnetic interference RFID readability")
+
+Observation: Result 1 [scifact] (ID: scifact_94109411): Improved Au/Zn/Au ohmic contacts for p-type InP
+  Improved Au/Zn/Au ohmic contacts for p-type InP In this work, an innovated Si3N4 as an out-diffusion barrier layer to Au/Zn/Au contact system for p-type InP has been proposed. Before the contacts were annealed, Si3N4 layer was deposited on the Au(200Å)/Zn(700Å)/Au(200Å), then the Si3N4 was removed b...
+Result 2 [scifact] (ID: scifact_27709445): RFID system evaluation against radiated transient noise
+  RFID system evaluation against radiated transient noise In this paper a radiofrequency identification system according to standard ISO/IEC 14443 type-B is evaluated in  presence of transient noise. This real time communication system working at 13.56 MHz is interfered in a controlled environment by ...
+Result 3 [scifact] (ID: scifact_121001457): Over 30% efficient InGaP/GaAs tandem solar cells
+  Over 30% efficient InGaP/GaAs tandem solar cells A two-terminal monolithic InGaP/GaAs tandem solar cell with a new efficiency record of 30.28% is realized with a practical large area of 4 cm2 under one-sun air-mass 1.5 global illumination. We report improvements of the tandem cell performance by int...
+

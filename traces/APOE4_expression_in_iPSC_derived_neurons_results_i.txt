@@ -1,0 +1,31 @@
+Claim: APOE4 expression in iPSC-derived neurons results in increased tau phosphorylation.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to first understand the basic context of APOE4 expression in iPSC-derived neurons and tau phosphorylation. Starting with a general search can provide background information that may help refine our specific query for PubMed.
+Action: search_wikipedia("APOE4 expression in iPSC-derived neurons")
+
+Observation: No results found.
+
+Thought: Since the initial Wikipedia search did not yield any useful information, we should directly search PubMed with a more specific query to find relevant research evidence on APOE4 expression in iPSC-derived neurons and its impact on tau phosphorylation.
+Action: search_pubmed("APOE4 expression iPSC-derived neurons tau phosphorylation")
+
+Observation: Result 1 [scifact] (ID: scifact_22116439): Pioglitazone prevents tau oligomerization.
+  Pioglitazone prevents tau oligomerization. Tau aggregation and amyloid β protein (Aβ) deposition are the main causes of Alzheimer's disease (AD). Peroxisome proliferator-activated receptor γ (PPARγ) activation modulates Aβ production. To test whether the PPARγ agonist pioglitazone (PIO) is also effe...
+Result 2 [scifact] (ID: scifact_3684342): LIN28B enhanced tumorigenesis in an autochthonous KRASG12V-driven lung carcinoma mouse model
+  LIN28B enhanced tumorigenesis in an autochthonous KRASG12V-driven lung carcinoma mouse model LIN28B is a RNA-binding protein regulating predominantly let-7 microRNAs with essential functions in inflammation, wound healing, embryonic stem cells, and cancer. LIN28B expression is associated with tumor ...
+Result 3 [scifact] (ID: scifact_1583041): Estimating prion concentration in fluids and tissues by quantitative PMCA
+  Estimating prion concentration in fluids and tissues by quantitative PMCA Prions, the proteinaceous infectious agent responsible for prion diseases, can be detected with high sensitivity by protein misfolding cyclic amplification (PMCA) technology. Here we describe a quantitative PMCA procedure to c...
+
+Thought: The PubMed search results did not directly address APOE4 expression in iPSC-derived neurons and its impact on tau phosphorylation. We need more specific studies that focus on this relationship. Let's refine our query to better target the specific claim.
+Action: search_pubmed("APOE4 expression iPSC-derived neurons tau phosphorylation Alzheimer")
+
+Observation: Result 1 [scifact] (ID: scifact_22116439): Pioglitazone prevents tau oligomerization.
+  Pioglitazone prevents tau oligomerization. Tau aggregation and amyloid β protein (Aβ) deposition are the main causes of Alzheimer's disease (AD). Peroxisome proliferator-activated receptor γ (PPARγ) activation modulates Aβ production. To test whether the PPARγ agonist pioglitazone (PIO) is also effe...
+Result 2 [scifact] (ID: scifact_25623469): A conserved phosphatase cascade that regulates nuclear membrane biogenesis.
+  A conserved phosphatase cascade that regulates nuclear membrane biogenesis. A newly emerging family of phosphatases that are members of the haloacid dehalogenase superfamily contains the catalytic motif DXDX(T/V). A member of this DXDX(T/V) phosphatase family known as Dullard was recently shown to b...
+Result 3 [scifact] (ID: scifact_1583041): Estimating prion concentration in fluids and tissues by quantitative PMCA
+  Estimating prion concentration in fluids and tissues by quantitative PMCA Prions, the proteinaceous infectious agent responsible for prion diseases, can be detected with high sensitivity by protein misfolding cyclic amplification (PMCA) technology. Here we describe a quantitative PMCA procedure to c...
+

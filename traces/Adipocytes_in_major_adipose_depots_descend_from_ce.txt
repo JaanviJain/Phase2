@@ -1,0 +1,36 @@
+Claim: Adipocytes in major adipose depots descend from cells with a history of Pdgfra expression.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: To evaluate the claim, I first need to understand if adipocytes in major adipose depots indeed originate from cells that have expressed Pdgfra (Platelet-Derived Growth Factor Receptor Alpha). A PubMed search will provide me with the latest research and clinical evidence.
+Action: search_pubmed("adipocytes major adipose depots Pdgfra")
+
+Observation: Result 1 [scifact] (ID: scifact_20532591): Tracking adipogenesis during white adipose tissue development, expansion and regeneration
+  Tracking adipogenesis during white adipose tissue development, expansion and regeneration White adipose tissue displays high plasticity. We developed a system for the inducible, permanent labeling of mature adipocytes that we called the AdipoChaser mouse. We monitored adipogenesis during development...
+Result 2 [scifact] (ID: scifact_14865329): Brown Fat and Browning for the Treatment of Obesity and Related Metabolic Disorders
+  Brown Fat and Browning for the Treatment of Obesity and Related Metabolic Disorders Brown fat is a specialized fat depot that can increase energy expenditure and produce heat. After the recent discovery of the presence of active brown fat in human adults and novel transcription factors controlling b...
+Result 3 [scifact] (ID: scifact_29381091): Brown and white adipose tissues: intrinsic differences in gene expression and response to cold exposure in mice
+  Brown and white adipose tissues: intrinsic differences in gene expression and response to cold exposure in mice Brown adipocytes dissipate energy, whereas white adipocytes are an energy storage site. We explored the plasticity of different white adipose tissue depots in acquiring a brown phenotype b...
+
+Thought: The first PubMed search did not directly address whether adipocytes in major adipose depots descend from cells with a history of Pdgfra expression. The results discussed adipogenesis and the development of adipose tissues but did not specifically mention the lineage tracing of adipocytes using Pdgfra as a marker. I need to refine my query to better focus on this specific aspect.
+Action: search_pubmed("adipocytes major adipose depots Pdgfra lineage")
+
+Observation: Result 1 [scifact] (ID: scifact_20532591): Tracking adipogenesis during white adipose tissue development, expansion and regeneration
+  Tracking adipogenesis during white adipose tissue development, expansion and regeneration White adipose tissue displays high plasticity. We developed a system for the inducible, permanent labeling of mature adipocytes that we called the AdipoChaser mouse. We monitored adipogenesis during development...
+Result 2 [scifact] (ID: scifact_32955023): Pdgfrβ+ Mural Preadipocytes Contribute to Adipocyte Hyperplasia Induced by High-Fat-Diet Feeding and Prolonged Cold Exposure in Adult Mice.
+  Pdgfrβ+ Mural Preadipocytes Contribute to Adipocyte Hyperplasia Induced by High-Fat-Diet Feeding and Prolonged Cold Exposure in Adult Mice. The expansion of white adipose tissue (WAT) in obesity involves de novo differentiation of new adipocytes; however, the cellular origin of these cells remains u...
+Result 3 [scifact] (ID: scifact_14865329): Brown Fat and Browning for the Treatment of Obesity and Related Metabolic Disorders
+  Brown Fat and Browning for the Treatment of Obesity and Related Metabolic Disorders Brown fat is a specialized fat depot that can increase energy expenditure and produce heat. After the recent discovery of the presence of active brown fat in human adults and novel transcription factors controlling b...
+
+Thought: The second PubMed search provided some relevant information, particularly the paper "Pdgfrβ+ Mural Preadipocytes Contribute to Adipocyte Hyperplasia Induced by High-Fat-Diet Feeding and Prolonged Cold Exposure in Adult Mice." This suggests that cells expressing Pdgfra (specifically Pdgfrβ+) contribute to adipocyte hyperplasia, which is consistent with the claim. However, it does not explicitly state that these cells are the precursors of mature adipocytes in major adipose depots. I need to refine my query further to find more direct evidence.
+Action: search_pubmed("adipocytes major adipose depots Pdgfra progenitor")
+
+Observation: Result 1 [scifact] (ID: scifact_32955023): Pdgfrβ+ Mural Preadipocytes Contribute to Adipocyte Hyperplasia Induced by High-Fat-Diet Feeding and Prolonged Cold Exposure in Adult Mice.
+  Pdgfrβ+ Mural Preadipocytes Contribute to Adipocyte Hyperplasia Induced by High-Fat-Diet Feeding and Prolonged Cold Exposure in Adult Mice. The expansion of white adipose tissue (WAT) in obesity involves de novo differentiation of new adipocytes; however, the cellular origin of these cells remains u...
+Result 2 [scifact] (ID: scifact_20532591): Tracking adipogenesis during white adipose tissue development, expansion and regeneration
+  Tracking adipogenesis during white adipose tissue development, expansion and regeneration White adipose tissue displays high plasticity. We developed a system for the inducible, permanent labeling of mature adipocytes that we called the AdipoChaser mouse. We monitored adipogenesis during development...
+Result 3 [scifact] (ID: scifact_3758260): Parathyroid Hormone Directs Bone Marrow Mesenchymal Cell Fate.
+  Parathyroid Hormone Directs Bone Marrow Mesenchymal Cell Fate. Intermittent PTH administration builds bone mass and prevents fractures, but its mechanism of action is unclear. We genetically deleted the PTH/PTHrP receptor (PTH1R) in mesenchymal stem cells using Prx1Cre and found low bone formation, ...
+

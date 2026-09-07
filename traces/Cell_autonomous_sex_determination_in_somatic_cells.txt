@@ -1,0 +1,31 @@
+Claim: Cell autonomous sex determination in somatic cells does not occur in Passeriformes.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to first gather some general background on sex determination in Passeriformes (passerine birds) before diving into more specific research. This will help us understand the context and refine our search if necessary.
+Action: search_wikipedia("sex determination in Passeriformes")
+
+Observation: No results found.
+
+Thought: Since there were no results from searching Wikipedia, it might be helpful to try a more specific query focusing on cell autonomous sex determination in Passeriformes directly. This could provide us with relevant information or studies.
+Action: search_pubmed("cell autonomous sex determination Passeriformes")
+
+Observation: Result 1 [scifact] (ID: scifact_38675228): A molecular framework for plant regeneration.
+  A molecular framework for plant regeneration. Plants and some animals have a profound capacity to regenerate organs from adult tissues. Molecular mechanisms for regeneration have, however, been largely unexplored. Here we investigate a local regeneration response in Arabidopsis roots. Laser-induced ...
+Result 2 [scifact] (ID: scifact_87430549): Stem Cells,Cancer and Cancer Stem Cells
+  Stem Cells,Cancer and Cancer Stem Cells Stem cells are defined as cells able to both extensively self-renew and differentiate into progenitors. Research data show that more resistant stem cells than common cancer cells exist in cancer patients. To identify unrecognized differences between cancer ste...
+Result 3 [scifact] (ID: scifact_4340509): Surface mechanics mediate pattern formation in the developing retina
+  Surface mechanics mediate pattern formation in the developing retina Pattern formation of biological structures involves organizing different types of cells into a spatial configuration. In this study, we investigate the physical basis of biological patterning of the Drosophila retina in vivo. We de...
+
+Thought: The search results do not directly address cell autonomous sex determination in Passeriformes. They are related to other topics such as plant regeneration and stem cells. I need to refine my query to specifically focus on sex determination mechanisms in passerine birds.
+Action: search_pubmed("cell autonomous sex determination Passeriformes")
+
+Observation: Result 1 [scifact] (ID: scifact_38675228): A molecular framework for plant regeneration.
+  A molecular framework for plant regeneration. Plants and some animals have a profound capacity to regenerate organs from adult tissues. Molecular mechanisms for regeneration have, however, been largely unexplored. Here we investigate a local regeneration response in Arabidopsis roots. Laser-induced ...
+Result 2 [scifact] (ID: scifact_87430549): Stem Cells,Cancer and Cancer Stem Cells
+  Stem Cells,Cancer and Cancer Stem Cells Stem cells are defined as cells able to both extensively self-renew and differentiate into progenitors. Research data show that more resistant stem cells than common cancer cells exist in cancer patients. To identify unrecognized differences between cancer ste...
+Result 3 [scifact] (ID: scifact_4340509): Surface mechanics mediate pattern formation in the developing retina
+  Surface mechanics mediate pattern formation in the developing retina Pattern formation of biological structures involves organizing different types of cells into a spatial configuration. In this study, we investigate the physical basis of biological patterning of the Drosophila retina in vivo. We de...
+

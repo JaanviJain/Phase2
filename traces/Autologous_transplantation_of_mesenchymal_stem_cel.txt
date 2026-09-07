@@ -1,0 +1,31 @@
+Claim: Autologous transplantation of mesenchymal stem cells has worse graft function than induction therapy with anti-interleukin-2 receptor antibodies.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to gather evidence regarding the comparison between autologous transplantation of mesenchymal stem cells and induction therapy with anti-interleukin-2 receptor antibodies in terms of graft function. Starting with a PubMed search will provide us with clinical and research-based evidence.
+Action: search_pubmed("autologous mesenchymal stem cell transplantation vs induction therapy with anti-interleukin-2 receptor antibodies graft function")
+
+Observation: Result 1 [scifact] (ID: scifact_6544701): A more efficient method to generate integration-free human iPS cells
+  A more efficient method to generate integration-free human iPS cells We report a simple method, using p53 suppression and nontransforming L-Myc, to generate human induced pluripotent stem cells (iPSCs) with episomal plasmid vectors. We generated human iPSCs from multiple donors, including two putati...
+Result 2 [scifact] (ID: scifact_33535222): Recipient-type specific CD4+CD25+ regulatory T cells favor immune reconstitution and control graft-versus-host disease while maintaining graft-versus-leukemia.
+  Recipient-type specific CD4+CD25+ regulatory T cells favor immune reconstitution and control graft-versus-host disease while maintaining graft-versus-leukemia. CD4+CD25+ regulatory T cells (Treg's) play a pivotal role in preventing organ-specific autoimmune diseases and in inducing tolerance to allo...
+Result 3 [scifact] (ID: scifact_27243019): Immune reconstitution after cord blood transplantation: peculiarities, clinical implications and management strategies.
+  Immune reconstitution after cord blood transplantation: peculiarities, clinical implications and management strategies. Umbilical cord blood (UCB) is now widely used as an alternative hematopoietic stem cell source for patients lacking closely matched related or unrelated adult donors. UCB transplan...
+
+Thought: The initial PubMed search did not yield any relevant results directly comparing autologous mesenchymal stem cell transplantation and induction therapy with anti-interleukin-2 receptor antibodies in terms of graft function. This suggests the need for a more specific query or broader search on general information to understand the context better.
+Action: search_wikipedia("autologous mesenchymal stem cell transplantation vs induction therapy with anti-interleukin-2 receptor antibodies")
+
+Observation: No results found.
+
+Thought: Since the initial PubMed and Wikipedia searches did not provide relevant evidence, we need to refine our query to better focus on the comparison between autologous mesenchymal stem cell transplantation and induction therapy with anti-interleukin-2 receptor antibodies specifically in terms of graft function. A more specific search might yield the required information.
+Action: search_pubmed("autologous mesenchymal stem cell transplantation vs anti-IL2R antibody therapy graft function")
+
+Observation: Result 1 [scifact] (ID: scifact_6544701): A more efficient method to generate integration-free human iPS cells
+  A more efficient method to generate integration-free human iPS cells We report a simple method, using p53 suppression and nontransforming L-Myc, to generate human induced pluripotent stem cells (iPSCs) with episomal plasmid vectors. We generated human iPSCs from multiple donors, including two putati...
+Result 2 [scifact] (ID: scifact_24825841): Generating an iPSC bank for HLA-matched tissue transplantation based on known donor and recipient HLA types.
+  Generating an iPSC bank for HLA-matched tissue transplantation based on known donor and recipient HLA types. The likelihood for immunological rejection of Human Leukocyte Antigens (HLA)-mismatched induced pluripotent stem cells (iPSCs) limits their therapeutic potential. Here we show how a tissue ba...
+Result 3 [scifact] (ID: scifact_33535222): Recipient-type specific CD4+CD25+ regulatory T cells favor immune reconstitution and control graft-versus-host disease while maintaining graft-versus-leukemia.
+  Recipient-type specific CD4+CD25+ regulatory T cells favor immune reconstitution and control graft-versus-host disease while maintaining graft-versus-leukemia. CD4+CD25+ regulatory T cells (Treg's) play a pivotal role in preventing organ-specific autoimmune diseases and in inducing tolerance to allo...
+

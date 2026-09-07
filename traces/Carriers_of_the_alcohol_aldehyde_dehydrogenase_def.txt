@@ -1,0 +1,31 @@
+Claim: Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink more that non-carries.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to first gather some general background information on the alcohol aldehyde dehydrogenase deficiency mutation and its relation to drinking behavior.
+Action: search_wikipedia("alcohol aldehyde dehydrogenase deficiency")
+
+Observation: No results found.
+
+Thought: Since the Wikipedia search did not yield any useful information, I will try searching PubMed directly with a more specific query to find relevant research studies on this topic.
+Action: search_pubmed("alcohol aldehyde dehydrogenase deficiency drinking behavior")
+
+Observation: Result 1 [scifact] (ID: scifact_14663842): IDH1 mutations alter citric acid cycle metabolism and increase dependence on oxidative mitochondrial metabolism.
+  IDH1 mutations alter citric acid cycle metabolism and increase dependence on oxidative mitochondrial metabolism. Oncogenic mutations in isocitrate dehydrogenase 1 and 2 (IDH1/2) occur in several types of cancer, but the metabolic consequences of these genetic changes are not fully understood. In thi...
+Result 2 [scifact] (ID: scifact_11457219): Fumarase deficiency in dichorionic diamniotic twins.
+  Fumarase deficiency in dichorionic diamniotic twins. Fumarase deficiency is a rare autosomal recessive inborn error of metabolism of the Krebs Tricarboxylic Acid cycle. A heavy neurological disease burden is imparted by fumarase deficiency, commonly manifesting as microcephaly, dystonia, global deve...
+Result 3 [scifact] (ID: scifact_1568684): The Bile Acid Chenodeoxycholic Acid Increases Human Brown Adipose Tissue Activity.
+  The Bile Acid Chenodeoxycholic Acid Increases Human Brown Adipose Tissue Activity. The interest in brown adipose tissue (BAT) as a target to combat metabolic disease has recently been renewed with the discovery of functional BAT in humans. In rodents, BAT can be activated by bile acids, which activa...
+
+Thought: The PubMed search results did not directly address alcohol aldehyde dehydrogenase deficiency and its relation to drinking behavior. I need more focused results on this specific topic.
+Action: search_pubmed("alcohol aldehyde dehydrogenase deficiency drinking habits")
+
+Observation: Result 1 [scifact] (ID: scifact_11457219): Fumarase deficiency in dichorionic diamniotic twins.
+  Fumarase deficiency in dichorionic diamniotic twins. Fumarase deficiency is a rare autosomal recessive inborn error of metabolism of the Krebs Tricarboxylic Acid cycle. A heavy neurological disease burden is imparted by fumarase deficiency, commonly manifesting as microcephaly, dystonia, global deve...
+Result 2 [scifact] (ID: scifact_32975424): Threonine as a carbon source for Escherichia coli.
+  Threonine as a carbon source for Escherichia coli. Threonine can be used aerobically as the sole source of carbon and energy by mutants of Escherichia coli K-12. The pathway used involves the conversion of threonine via threonine dehydrogenase to aminoketobutyric acid, which is further metabolized b...
+Result 3 [scifact] (ID: scifact_14663842): IDH1 mutations alter citric acid cycle metabolism and increase dependence on oxidative mitochondrial metabolism.
+  IDH1 mutations alter citric acid cycle metabolism and increase dependence on oxidative mitochondrial metabolism. Oncogenic mutations in isocitrate dehydrogenase 1 and 2 (IDH1/2) occur in several types of cancer, but the metabolic consequences of these genetic changes are not fully understood. In thi...
+

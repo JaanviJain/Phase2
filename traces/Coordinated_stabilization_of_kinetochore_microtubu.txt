@@ -1,0 +1,31 @@
+Claim: Coordinated stabilization of kinetochore-microtubule attachments occurs at the prometaphase to metaphase transition.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: The claim mentions a specific biological process related to cell division, specifically during the prometaphase to metaphase transition. To validate this claim, I should first gather detailed scientific evidence from PubMed or general background information from Wikipedia.
+Action: search_pubmed("coordinated stabilization of kinetochore-microtubule attachments prometaphase to metaphase")
+
+Observation: Result 1 [scifact] (ID: scifact_24558930): A kinetochore-independent mechanism drives anaphase chromosome separation during acentrosomal meiosis
+  A kinetochore-independent mechanism drives anaphase chromosome separation during acentrosomal meiosis Although assembly of acentrosomal meiotic spindles has been extensively studied, little is known about the segregation of chromosomes on these spindles. Here, we show in Caenorhabditis elegans oocyt...
+Result 2 [scifact] (ID: scifact_38528892): The aurora B kinase promotes inner and outer kinetochore interactions in budding yeast.
+  The aurora B kinase promotes inner and outer kinetochore interactions in budding yeast. The kinetochore is the macromolecular protein complex that mediates chromosome segregation. The Dsn1 component is crucial for kinetochore assembly and is phosphorylated by the Aurora B kinase. We found that Auror...
+Result 3 [scifact] (ID: scifact_22405338): Cnn1 inhibits the interactions between the KMN complexes of the yeast kinetochore
+  Cnn1 inhibits the interactions between the KMN complexes of the yeast kinetochore Kinetochores attach the replicated chromosomes to the mitotic spindle and orchestrate their transmission to the daughter cells. Kinetochore–spindle binding and chromosome segregation are mediated by the multi-copy KNL1...
+
+Thought: The search results contain information related to kinetochore-microtubule interactions, but they do not specifically address the coordinated stabilization that occurs during the prometaphase to metaphase transition. I need more precise evidence on this topic.
+Action: search_pubmed("coordinated stabilization of kinetochore-microtubule attachments prometaphase to metaphase")
+
+Observation: Result 1 [scifact] (ID: scifact_24558930): A kinetochore-independent mechanism drives anaphase chromosome separation during acentrosomal meiosis
+  A kinetochore-independent mechanism drives anaphase chromosome separation during acentrosomal meiosis Although assembly of acentrosomal meiotic spindles has been extensively studied, little is known about the segregation of chromosomes on these spindles. Here, we show in Caenorhabditis elegans oocyt...
+Result 2 [scifact] (ID: scifact_38528892): The aurora B kinase promotes inner and outer kinetochore interactions in budding yeast.
+  The aurora B kinase promotes inner and outer kinetochore interactions in budding yeast. The kinetochore is the macromolecular protein complex that mediates chromosome segregation. The Dsn1 component is crucial for kinetochore assembly and is phosphorylated by the Aurora B kinase. We found that Auror...
+Result 3 [scifact] (ID: scifact_22405338): Cnn1 inhibits the interactions between the KMN complexes of the yeast kinetochore
+  Cnn1 inhibits the interactions between the KMN complexes of the yeast kinetochore Kinetochores attach the replicated chromosomes to the mitotic spindle and orchestrate their transmission to the daughter cells. Kinetochore–spindle binding and chromosome segregation are mediated by the multi-copy KNL1...
+
+Thought: The results still do not provide direct evidence for coordinated stabilization of kinetochore-microtubule attachments during the prometaphase to metaphase transition. I will try searching Wikipedia for general background information that might help refine my query.
+Action: search_wikipedia("prometaphase to metaphase transition")
+
+Observation: No results found.
+

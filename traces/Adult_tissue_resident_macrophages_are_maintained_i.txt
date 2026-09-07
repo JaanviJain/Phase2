@@ -1,0 +1,31 @@
+Claim: Adult tissue-resident macrophages are maintained independent of circulating monocytes.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: To evaluate the claim, I first need to understand the basic definitions of adult tissue-resident macrophages and circulating monocytes. This will help me frame a more specific search query later.
+Action: search_wikipedia("adult tissue-resident macrophages and circulating monocytes")
+
+Observation: No results found.
+
+Thought: Since the initial Wikipedia search did not provide useful information, I should attempt to directly address the claim by searching PubMed with a general query that might yield relevant research papers.
+Action: search_pubmed("adult tissue-resident macrophages and circulating monocytes")
+
+Observation: Result 1 [scifact] (ID: scifact_22406695): Origin and functions of tissue macrophages.
+  Origin and functions of tissue macrophages. Macrophages are distributed in tissues throughout the body and contribute to both homeostasis and disease. Recently, it has become evident that most adult tissue macrophages originate during embryonic development and not from circulating monocytes. Each ti...
+Result 2 [scifact] (ID: scifact_7521113): Fate mapping reveals origins and dynamics of monocytes and tissue macrophages under homeostasis.
+  Fate mapping reveals origins and dynamics of monocytes and tissue macrophages under homeostasis. Mononuclear phagocytes, including monocytes, macrophages, and dendritic cells, contribute to tissue integrity as well as to innate and adaptive immune defense. Emerging evidence for labor division indica...
+Result 3 [scifact] (ID: scifact_7489663): Identification of splenic reservoir monocytes and their deployment to inflammatory sites.
+  Identification of splenic reservoir monocytes and their deployment to inflammatory sites. A current paradigm states that monocytes circulate freely and patrol blood vessels but differentiate irreversibly into dendritic cells (DCs) or macrophages upon tissue entry. Here we show that bona fide undiffe...
+
+Thought: The first PubMed search results suggest that adult tissue-resident macrophages are not primarily maintained through circulating monocytes, which is consistent with the claim. However, to fully evaluate the claim, I need to look for more direct evidence or studies specifically addressing this point.
+Action: search_pubmed("adult tissue-resident macrophages independent of circulating monocytes")
+
+Observation: Result 1 [scifact] (ID: scifact_22406695): Origin and functions of tissue macrophages.
+  Origin and functions of tissue macrophages. Macrophages are distributed in tissues throughout the body and contribute to both homeostasis and disease. Recently, it has become evident that most adult tissue macrophages originate during embryonic development and not from circulating monocytes. Each ti...
+Result 2 [scifact] (ID: scifact_12827098): Tissue-resident macrophages self-maintain locally throughout adult life with minimal contribution from circulating monocytes.
+  Tissue-resident macrophages self-maintain locally throughout adult life with minimal contribution from circulating monocytes. Despite accumulating evidence suggesting local self-maintenance of tissue macrophages in the steady state, the dogma remains that tissue macrophages derive from monocytes. Us...
+Result 3 [scifact] (ID: scifact_7521113): Fate mapping reveals origins and dynamics of monocytes and tissue macrophages under homeostasis.
+  Fate mapping reveals origins and dynamics of monocytes and tissue macrophages under homeostasis. Mononuclear phagocytes, including monocytes, macrophages, and dendritic cells, contribute to tissue integrity as well as to innate and adaptive immune defense. Emerging evidence for labor division indica...
+

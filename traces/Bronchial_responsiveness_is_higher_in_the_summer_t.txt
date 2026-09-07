@@ -1,0 +1,39 @@
+Claim: Bronchial responsiveness is higher in the summer than in the winter.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 9
+======================================================================
+
+Thought: We currently don't have any information on this claim, so we should start by searching PubMed for clinical or research evidence that might address the relationship between bronchial responsiveness and seasonal changes.
+Action: search_pubmed("bronchial responsiveness seasonality")
+
+Observation: Result 1 [scifact] (ID: scifact_2891825): High prevalence of asthma in cross country skiers.
+  High prevalence of asthma in cross country skiers. OBJECTIVES To study the prevalence of asthma (asthma symptoms and bronchial hyperresponsiveness) in Swedish cross country skiers compared with non-skiers and monitor changes in symptoms and bronchial hyperresponsiveness during the year.   
+ DESIGN C...
+Result 2 [scifact] (ID: scifact_20611846): Influence of cigarette smoking on inhaled corticosteroid treatment in mild asthma.
+  Influence of cigarette smoking on inhaled corticosteroid treatment in mild asthma. BACKGROUND Although inhaled corticosteroids have an established role in the treatment of asthma, studies have tended to concentrate on non-smokers and little is known about the possible effect of cigarette smoking on ...
+Result 3 [scifact] (ID: scifact_41161366): Exercise-induced asthma.
+  Exercise-induced asthma. The effect of exercise on ventilatory function was studied in 7 patients with asthma. Three showed appreciable decrease in forced expiratory volume in one second (FEV 1) after exercise. The degree of hyperventilation produced by exercise correlated with the postexercise decr...
+
+Thought: The first search yielded some relevant results, particularly regarding cross-country skiers and exercise-induced asthma, but did not directly address the claim about bronchial responsiveness being higher in summer than winter. We need to refine our query to focus more specifically on seasonal changes and bronchial responsiveness.
+Action: search_pubmed("bronchial responsiveness season summer winter")
+
+Observation: Result 1 [scifact] (ID: scifact_2891825): High prevalence of asthma in cross country skiers.
+  High prevalence of asthma in cross country skiers. OBJECTIVES To study the prevalence of asthma (asthma symptoms and bronchial hyperresponsiveness) in Swedish cross country skiers compared with non-skiers and monitor changes in symptoms and bronchial hyperresponsiveness during the year.   
+ DESIGN C...
+Result 2 [scifact] (ID: scifact_20611846): Influence of cigarette smoking on inhaled corticosteroid treatment in mild asthma.
+  Influence of cigarette smoking on inhaled corticosteroid treatment in mild asthma. BACKGROUND Although inhaled corticosteroids have an established role in the treatment of asthma, studies have tended to concentrate on non-smokers and little is known about the possible effect of cigarette smoking on ...
+Result 3 [scifact] (ID: scifact_41161366): Exercise-induced asthma.
+  Exercise-induced asthma. The effect of exercise on ventilatory function was studied in 7 patients with asthma. Three showed appreciable decrease in forced expiratory volume in one second (FEV 1) after exercise. The degree of hyperventilation produced by exercise correlated with the postexercise decr...
+
+Thought: After refining our query, we still do not have any direct evidence regarding bronchial responsiveness being higher in summer than winter. We need to further narrow down our search to specifically address this claim.
+Action: search_pubmed("bronchial responsiveness seasonality summer winter")
+
+Observation: Result 1 [scifact] (ID: scifact_2891825): High prevalence of asthma in cross country skiers.
+  High prevalence of asthma in cross country skiers. OBJECTIVES To study the prevalence of asthma (asthma symptoms and bronchial hyperresponsiveness) in Swedish cross country skiers compared with non-skiers and monitor changes in symptoms and bronchial hyperresponsiveness during the year.   
+ DESIGN C...
+Result 2 [scifact] (ID: scifact_20611846): Influence of cigarette smoking on inhaled corticosteroid treatment in mild asthma.
+  Influence of cigarette smoking on inhaled corticosteroid treatment in mild asthma. BACKGROUND Although inhaled corticosteroids have an established role in the treatment of asthma, studies have tended to concentrate on non-smokers and little is known about the possible effect of cigarette smoking on ...
+Result 3 [scifact] (ID: scifact_41161366): Exercise-induced asthma.
+  Exercise-induced asthma. The effect of exercise on ventilatory function was studied in 7 patients with asthma. Three showed appreciable decrease in forced expiratory volume in one second (FEV 1) after exercise. The degree of hyperventilation produced by exercise correlated with the postexercise decr...
+

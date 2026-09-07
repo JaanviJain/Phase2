@@ -1,0 +1,31 @@
+Claim: 50% of patients exposed to radiation have activated markers of myofibroblasts.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to first gather some general background on myofibroblasts and radiation exposure to understand the context of the claim. This will help us formulate a more specific search query later if needed.
+Action: search_wikipedia("myofibroblasts radiation exposure")
+
+Observation: No results found.
+
+Thought: Since searching Wikipedia did not yield any results, we should proceed by directly investigating the claim in PubMed to see if there is any relevant research that might address or refute it.
+Action: search_pubmed("50% patients radiation myofibroblasts")
+
+Observation: Result 1 [scifact] (ID: scifact_87430549): Stem Cells,Cancer and Cancer Stem Cells
+  Stem Cells,Cancer and Cancer Stem Cells Stem cells are defined as cells able to both extensively self-renew and differentiate into progenitors. Research data show that more resistant stem cells than common cancer cells exist in cancer patients. To identify unrecognized differences between cancer ste...
+Result 2 [scifact] (ID: scifact_24466904): Successful establishment of long-term bone marrow cultures in 103 patients with myelodysplastic syndromes.
+  Successful establishment of long-term bone marrow cultures in 103 patients with myelodysplastic syndromes. We used bone marrow biopsies instead of mononuclear cells to maintain long-term cultures from 103 patients belonging to all five sub-categories of myelodysplastic syndromes (MDS), as well as 12...
+Result 3 [scifact] (ID: scifact_7583161): Heterotopic of bone marrow. Analysis of precursor cells for osteogenic and hematopoietic tissues.
+  Heterotopic of bone marrow. Analysis of precursor cells for osteogenic and hematopoietic tissues. In semisyngeneic heterotopic bone marrow transplants the donor or recipient origin of cells of osteogenic and hematopoietic tissues was identified by chromosome markers (T6) and by reverse transplantati...
+
+Thought: The search results do not directly address the claim about 50% of patients exposed to radiation having activated markers of myofibroblasts. We need to refine our query to more specifically target this aspect.
+Action: search_pubmed("radiation exposure myofibroblasts activation")
+
+Observation: Result 1 [scifact] (ID: scifact_13889430): Cancer exosomes trigger fibroblast to myofibroblast differentiation.
+  Cancer exosomes trigger fibroblast to myofibroblast differentiation. There is a growing interest in the cell-cell communication roles in cancer mediated by secreted vesicles termed exosomes. In this study, we examined whether exosomes produced by cancer cells could transmit information to normal str...
+Result 2 [scifact] (ID: scifact_19204979): Pericytes of human skeletal muscle are myogenic precursors distinct from satellite cells
+  Pericytes of human skeletal muscle are myogenic precursors distinct from satellite cells Cells derived from blood vessels of human skeletal muscle can regenerate skeletal muscle, similarly to embryonic mesoangioblasts. However, adult cells do not express endothelial markers, but instead express mark...
+Result 3 [scifact] (ID: scifact_34876410): Pericyte differentiation.
+  Pericyte differentiation. Pericytes are defined in vivo by their location: They are embedded within the basement membrane of microvessels. They form an integral part of the microvascular wall and are believed to participate in angiogenesis, although their precise role is not clear. Pericytes derived...
+

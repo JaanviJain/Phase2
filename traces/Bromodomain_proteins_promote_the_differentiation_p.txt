@@ -1,0 +1,31 @@
+Claim: Bromodomain proteins promote the differentiation process of bloodstream form (BSF) to procyclic form (PCF) parasites.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: I need to gather initial information on whether there is any research supporting the claim that bromodomain proteins promote the differentiation process of bloodstream form (BSF) to procyclic form (PCF) parasites. A PubMed search would be appropriate for this.
+Action: search_pubmed("bromodomain proteins and parasite differentiation")
+
+Observation: Result 1 [scifact] (ID: scifact_2251426): microRNAs: A Safeguard against Turmoil?
+  microRNAs: A Safeguard against Turmoil? Emerging data suggest that microRNAs (miRNAs) are instrumental in a variety of stress responses in addition to their more recognized role in development. Surprisingly, miRNAs, which normally suppress expression of target transcripts, may become activators of e...
+Result 2 [scifact] (ID: scifact_11661377): SNAREs — engines for membrane fusion
+  SNAREs — engines for membrane fusion Since the discovery of SNARE proteins in the late 1980s, SNAREs have been recognized as key components of protein complexes that drive membrane fusion. Despite considerable sequence divergence among SNARE proteins, their mechanism seems to be conserved and is ada...
+Result 3 [scifact] (ID: scifact_1499964): 30 Years of NF-κB: A Blossoming of Relevance to Human Pathobiology
+  30 Years of NF-κB: A Blossoming of Relevance to Human Pathobiology NF-κB was discovered 30 years ago as a rapidly inducible transcription factor. Since that time, it has been found to have a broad role in gene induction in diverse cellular responses, particularly throughout the immune system. Here, ...
+
+Thought: The initial search did not yield any direct results related to bromodomain proteins and parasite differentiation. However, I should try searching Wikipedia for general background information on these terms.
+Action: search_wikipedia("bromodomain proteins") OR search_wikipedia("bloodstream form parasites to procyclic form parasites")
+
+Observation: No results found.
+
+Thought: Since the initial PubMed search did not yield any relevant results, and searching Wikipedia for general background information on bromodomain proteins and bloodstream form (BSF) to procyclic form (PCF) parasites did not provide useful data, I should refine my query to more specifically target research related to these terms in the context of parasitic differentiation.
+Action: search_pubmed("bromodomain proteins AND bloodstream form parasites AND procyclic form parasites")
+
+Observation: Result 1 [scifact] (ID: scifact_24157077): Cationic host defense (antimicrobial) peptides.
+  Cationic host defense (antimicrobial) peptides. Members of the cationic host defense (antimicrobial) peptide family are widely distributed in nature, existing in organisms from insects to plants to mammals and non-mammalian vertebrates. Although many demonstrate direct antimicrobial activity against...
+Result 2 [scifact] (ID: scifact_5236443): Epithelial–mesenchymal transitions in tumour progression
+  Epithelial–mesenchymal transitions in tumour progression Without epithelial–mesenchymal transitions, in which polarized epithelial cells are converted into motile cells, multicellular organisms would be incapable of getting past the blastula stage of embryonic development. However, this important de...
+Result 3 [scifact] (ID: scifact_21373240): Functional specialization of Piwi proteins in Paramecium tetraurelia from post-transcriptional gene silencing to genome remodelling
+  Functional specialization of Piwi proteins in Paramecium tetraurelia from post-transcriptional gene silencing to genome remodelling Proteins of the Argonaute family are small RNA carriers that guide regulatory complexes to their targets. The family comprises two major subclades. Members of the Ago s...
+

@@ -1,0 +1,31 @@
+Claim: Decreases in region specific aerobic glycolysis in aged humans slows aging induced changes in brain glucose metabolism.
+True Label: NEI
+Hops used: 3/3
+Evidence collected: 6
+======================================================================
+
+Thought: We need to gather evidence to evaluate the claim. First, I will conduct a PubMed search using relevant keywords to find any research studies that might support or refute this claim.
+Action: search_pubmed("decreases region specific aerobic glycolysis aged humans brain glucose metabolism")
+
+Observation: Result 1 [scifact] (ID: scifact_195689757): Targeting metabolic remodeling in glioblastoma multiforme.
+  Targeting metabolic remodeling in glioblastoma multiforme. A key aberrant biological difference between tumor cells and normal differentiated cells is altered metabolism, whereby cancer cells acquire a number of stable genetic and epigenetic alterations to retain proliferation, survive under unfavor...
+Result 2 [scifact] (ID: scifact_14865329): Brown Fat and Browning for the Treatment of Obesity and Related Metabolic Disorders
+  Brown Fat and Browning for the Treatment of Obesity and Related Metabolic Disorders Brown fat is a specialized fat depot that can increase energy expenditure and produce heat. After the recent discovery of the presence of active brown fat in human adults and novel transcription factors controlling b...
+Result 3 [scifact] (ID: scifact_8734695): A transition in brain state during propofol-induced unconsciousness.
+  A transition in brain state during propofol-induced unconsciousness. Rhythmic oscillations shape cortical dynamics during active behavior, sleep, and general anesthesia. Cross-frequency phase-amplitude coupling is a prominent feature of cortical oscillations, but its role in organizing conscious and...
+
+Thought: The initial PubMed search did not yield any results directly related to the claim about decreases in region-specific aerobic glycolysis slowing aging-induced changes in brain glucose metabolism. I will try searching Wikipedia for general background information that might help refine my next query.
+Action: search_wikipedia("region specific aerobic glycolysis aged humans brain glucose metabolism")
+
+Observation: No results found.
+
+Thought: Since the PubMed search did not yield any relevant results, and the Wikipedia search also returned no useful information, I need to refine my query to more specifically target the claim about decreases in region-specific aerobic glycolysis slowing aging-induced changes in brain glucose metabolism.
+Action: search_pubmed("region specific aerobic glycolysis aged humans aging brain glucose metabolism")
+
+Observation: Result 1 [scifact] (ID: scifact_195689757): Targeting metabolic remodeling in glioblastoma multiforme.
+  Targeting metabolic remodeling in glioblastoma multiforme. A key aberrant biological difference between tumor cells and normal differentiated cells is altered metabolism, whereby cancer cells acquire a number of stable genetic and epigenetic alterations to retain proliferation, survive under unfavor...
+Result 2 [scifact] (ID: scifact_8734695): A transition in brain state during propofol-induced unconsciousness.
+  A transition in brain state during propofol-induced unconsciousness. Rhythmic oscillations shape cortical dynamics during active behavior, sleep, and general anesthesia. Cross-frequency phase-amplitude coupling is a prominent feature of cortical oscillations, but its role in organizing conscious and...
+Result 3 [scifact] (ID: scifact_14865329): Brown Fat and Browning for the Treatment of Obesity and Related Metabolic Disorders
+  Brown Fat and Browning for the Treatment of Obesity and Related Metabolic Disorders Brown fat is a specialized fat depot that can increase energy expenditure and produce heat. After the recent discovery of the presence of active brown fat in human adults and novel transcription factors controlling b...
+
