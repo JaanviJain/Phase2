@@ -1,12 +1,11 @@
 """
-Test retrieval without LLM (faster, for debugging).
-Uses transformers AutoModel directly (NOT sentence-transformers).
+Test retrieval without LLM (fast, for debugging FAISS).
 """
 
 import faiss
 import torch
 from build_faiss_index import load_faiss_index, BioBERTEncoder
-from config import *
+from config import BIOMODEL
 
 
 def test_basic_retrieval():
@@ -30,10 +29,14 @@ def test_basic_retrieval():
     for query in queries:
         print(f"\nQuery: '{query}'")
         query_emb = encoder.encode([query])
-        faiss.normalize_L2(query_emb)
         distances, indices = index.search(query_emb, k=3)
         
         for i, (dist, idx) in enumerate(zip(distances[0], indices[0])):
             abs_dict = metadata['abstracts'][idx]
             print(f"  {i+1}. [{abs_dict['source']}] Score: {dist:.4f}")
             print(f"      {abs_dict['title'][:70]}...")
+
+
+# CRITICAL FIX: Added main block so this script actually executes
+if __name__ == "__main__":
+    test_basic_retrieval()
