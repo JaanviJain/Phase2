@@ -5,6 +5,7 @@ These are your scientific baselines.
 
 import os
 import numpy as np
+import pickle 
 import faiss
 import torch
 from rank_bm25 import BM25Okapi
