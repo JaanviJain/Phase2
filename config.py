@@ -13,18 +13,24 @@ MODEL_DIR = os.path.join(BASE_DIR, "models")
 TRACES_DIR = os.path.join(BASE_DIR, "traces")
 PROMPTS_DIR = os.path.join(BASE_DIR, "prompts")
 
+# Output paths
+PHASE2_OUTPUT_DIR = os.path.join(DATA_DIR, "phase2_evidence")
+RETRIEVAL_EVAL_PATH = os.path.join(PHASE2_OUTPUT_DIR, "retrieval_metrics.json")
+REACT_EVAL_PATH = os.path.join(PHASE2_OUTPUT_DIR, "react_metrics.json")
+PHASE2_OUTPUT_PATH = os.path.join(PHASE2_OUTPUT_DIR, "retrieved_evidence.json")
+
 # Create directories
 for d in [DATA_DIR, FAISS_DIR, MODEL_DIR, TRACES_DIR, PROMPTS_DIR,
           os.path.join(DATA_DIR, "scifact"),
           os.path.join(DATA_DIR, "pubmed_abstracts"),
-          os.path.join(DATA_DIR, "phase2_evidence")]:
+          PHASE2_OUTPUT_DIR]:
     os.makedirs(d, exist_ok=True)
 
 # Model names
 BIOMODEL = "dmis-lab/biobert-base-cased-v1.1"
 
-# OLLAMA CONFIG — Local LLM, free, no API key
-OLLAMA_MODEL = "qwen2.5:7b"      # Change to "deepseek-r1:7b" or "mistral:7b" if you want
+# OLLAMA CONFIG
+OLLAMA_MODEL = "qwen2.5:7b"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_TAGS_URL = "http://localhost:11434/api/tags"
 
@@ -40,8 +46,9 @@ FAISS_META_PATH = os.path.join(FAISS_DIR, "abstract_metadata.pkl")
 
 # Retrieval settings
 TOP_K_RETRIEVE = 10
+MAX_REACT_HOPS = 5
 
 print("Phase 2 Config loaded.")
 print(f"Ollama model: {OLLAMA_MODEL}")
 print(f"Data directory: {DATA_DIR}")
-print(f"FAISS index will be saved to: {FAISS_INDEX_PATH}")
+print(f"FAISS index: {FAISS_INDEX_PATH}")
